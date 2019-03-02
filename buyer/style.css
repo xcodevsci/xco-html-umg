@@ -98,7 +98,7 @@ input,button,select,textarea{
 }
 .title_style h1{
     font-size: 30px;
-    color: #b4191d;
+    color: #0f3482;
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 65px;
@@ -220,7 +220,7 @@ input,button,select,textarea{
     padding: 5px;
 }
 .lang_menu li:hover,.toolbar .header_menu> li:hover a{
-    color: #b4191d;
+    color: #0f3482;
 }
 .toolbar .icon_down{
     color: #ababab;
@@ -244,14 +244,14 @@ input,button,select,textarea{
     display: inline-block;
 }
 .log_in a:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .log_in  span{
     color: #fff;
 }
 /* Header Bottom */ 
 .header_bottom{
-   background-color: #b82529;
+   background-color: #37afdc;
    position: relative;
  } 
 .home2 .header_bottom::after{
@@ -286,7 +286,7 @@ input,button,select,textarea{
     border-top: 94px solid transparent;
     top: 0;
     left: 0;    
-    border-left: 40px solid #b82529;
+    border-left: 40px solid #37afdc;
 }
 .main_menu li{
     display: inline-block;
@@ -308,7 +308,7 @@ input,button,select,textarea{
     color: #333;
 }
 .home2 .main_menu >li>a:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .main_menu >li>a::after,.current_page::before{
     position: absolute;
@@ -324,7 +324,7 @@ input,button,select,textarea{
     font-family: "Ionicons";
     position: absolute;
     font-size: 16px;
-    color: #b4191d;
+    color: #0f3482;
     background: none;
     left: 20px;
     top: 100px;
@@ -456,7 +456,7 @@ input,button,select,textarea{
 .div1,.div2{
     width: 14px;
     height: 14px;
-    border: 1px solid #b4191d;    
+    border: 1px solid #0f3482;    
 }
 .div2{
     position: absolute;
@@ -471,7 +471,7 @@ input,button,select,textarea{
     margin-right: 9px;
 }
 .category_menu li:hover a,.category_menu li:hover a i,.homes li:hover a{
-    color: #b4191d;
+    color: #0f3482;
 }
 
 /*===================================================
@@ -512,7 +512,7 @@ input,button,select,textarea{
 .main_slider_info h2{
     font-weight: 700;
     font-size: 48px;
-    color: #b4191d;
+    color: #0f3482;
     margin-bottom: 10px;
 }
 .main_slide{
@@ -618,11 +618,11 @@ input,button,select,textarea{
     border: none;
     height: 50px;
     line-height: 50px;
-    background-color: #b4191d;
+    background-color: #0f3482;
     width: 220px;
 }
 .srch_btn:hover {
-    color: #b4191d;
+    color: #0f3482;
 }
 
 /*===================================================
@@ -653,7 +653,7 @@ input,button,select,textarea{
     margin-right:-3px;
 }
 .home2 .exp_info{
-    border: 2px solid #b4191d;
+    border: 2px solid #0f3482;
     position: relative;
     background: #fff;
     padding: 55px 40px 65px 55px;
@@ -680,7 +680,7 @@ input,button,select,textarea{
     margin-bottom: 6px;
 }
 .experience_info h2{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 30px;
     font-weight: bold;
     line-height: 42px;
@@ -710,31 +710,31 @@ input,button,select,textarea{
     font-size: 16px;
 }
 .home2 .experience_desc a:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .btn1{
     margin-top: 22px;
     display: inline-block;
-    border: 1px solid #b82529;
+    border: 1px solid #37afdc;
     position: relative;
     overflow: hidden;
 }
 .btn1_main .icon{
     vertical-align: top;
     margin-left: -4px;
-    background: #b82529;
+    background: #37afdc;
 }
 .btn1_main i{
     color: white;
     font-size: 18px;
     padding: 0 16px;
-    background: #b4191d;
+    background: #0f3482;
     display: inline-block;
     line-height: 50px;
     margin-left: 20px;
 }
 .btn1_main a{
-    color: #b82529;
+    color: #37afdc;
     font-size: 16px;
     font-weight: 700;
     line-height: 48px;
@@ -758,7 +758,7 @@ input,button,select,textarea{
 }
 .btn1_hover a{
     display: block;
-    background: #b82529;
+    background: #37afdc;
     padding-left: 30px;
     color: #eef2f5;
     font-size: 16px;
@@ -790,7 +790,7 @@ input,button,select,textarea{
 }
 .do::before{
     content: "";
-    background-color: #b82529;
+    background-color: #37afdc;
     opacity: .85;
     width: 100%;
     height: 100%;
@@ -815,7 +815,7 @@ input,button,select,textarea{
     position: relative;    
 }
 .home2.single_services{
-    border:1px solid #b4191d;
+    border:1px solid #0f3482;
     padding:23px 0;
     position:relative;
     padding-left:60px;
@@ -832,7 +832,7 @@ input,button,select,textarea{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #b4191d;
+    background: #0f3482;
     content: "";
     transform: scaleX(1);
     opacity: 0;
@@ -898,7 +898,7 @@ input,button,select,textarea{
     margin-top: 18px;
 }
 .home2.service_image{
-    border:1px solid #b4191d;
+    border:1px solid #0f3482;
     position: absolute;
     top: calc(50% - 60px);
     left: -40px;
@@ -938,13 +938,13 @@ input,button,select,textarea{
     background: #fff;
 }
 .single_services:hover .service_image{
-    background: #b82529;
+    background: #37afdc;
 }
 .single_services:hover .service_image .svg{
     fill: #fff;
 }
 .single_services:hover .service_info h2{
-    color: #b82529;
+    color: #37afdc;
 }
 .single_services:hover .service_info p{
     color: #888;
@@ -1016,7 +1016,7 @@ input,button,select,textarea{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #b4191d;
+    background: #0f3482;
     border-radius: 50%;
     line-height: 40px;
     color: #fff;
@@ -1123,7 +1123,7 @@ input,button,select,textarea{
     top: calc(50% - 18px);
 }
 .icon1 i,.icon2 a{
-    color: #b82529;
+    color: #37afdc;
     font-size: 16px;
     display: block;
 }
@@ -1163,7 +1163,7 @@ input,button,select,textarea{
     border-top-right-radius: 48px;
     border-bottom-right-radius: 48px;
     color: #fff;
-    background:#b4191d;
+    background:#0f3482;
     font-size: 18px;
     height: 48px;
     line-height: 48px;
@@ -1229,7 +1229,7 @@ input,button,select,textarea{
     margin-bottom: 0;
 }
 .panel-title i {
-    background: #b4191d;
+    background: #0f3482;
     color: #777;
     height: 60px;
     border-radius: 50%;
@@ -1286,7 +1286,7 @@ input,button,select,textarea{
     border-radius: 5px;
 } 
 .options:hover,#name:hover,#email:hover,.blog_search input:hover{
-    border-color:#b4191d;
+    border-color:#0f3482;
 }
 .select::after { 
     position: absolute;
@@ -1300,7 +1300,7 @@ input,button,select,textarea{
     pointer-events: none;
 }
 .btn_submit{
-    background: #b4191d;
+    background: #0f3482;
     border: none;
     color: #fff;
     height: 50px;
@@ -1415,7 +1415,7 @@ input,button,select,textarea{
 }
 .feedback .owl-dot.active,.main_slider .owl-dot.active{
     transform: rotate(90deg);
-    background: #b4191d;
+    background: #0f3482;
 }
 .feedback_info p{
     position: relative;
@@ -1452,13 +1452,13 @@ input,button,select,textarea{
     border: 1px solid #fff;
 }
 .single_feedback:hover::before{
-    border-color: #b4191d !important;
+    border-color: #0f3482 !important;
 }
 .single_feedback:hover .feedback_image{
-    border-color: #b4191d;
+    border-color: #0f3482;
 }
 .single_feedback:hover .feedback_info::before,.single_feedback:hover .feedback_info::after{
-    background: #b4191d;
+    background: #0f3482;
 }
 .work .title_style h1{
     padding-top: 91px;
@@ -1525,7 +1525,7 @@ input,button,select,textarea{
     margin-top: 0;     
 }
 .news_details:hover>a h3 ,.news_details:hover>a{
-    color: #b4191d;
+    color: #0f3482;
 }
 .news_info:hover{
     -webkit-animation: bounce 1s;
@@ -1542,7 +1542,7 @@ input,button,select,textarea{
     top: 32%;
 }
 .info_image i{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 18px;    
 }
 .info_desc p{
@@ -1564,7 +1564,7 @@ input,button,select,textarea{
     overflow: hidden;
 }
 .contact{
-    background-color:#d72e33;
+    background-color:#684690;
     padding:25px 30px;
     position: relative;
     z-index: 10;
@@ -1574,13 +1574,13 @@ input,button,select,textarea{
     border-radius: 10px;
 }
 .contact:hover{
-    background: #b4191d;
+    background: #37afdc;
 }
 .contact::after{
     position: absolute;
     top: 0;
     left: 0;
-    background: #b4191d;
+    background: #37afdc;
     color: black;
     width: 100%;
     height: 100%;
@@ -1667,7 +1667,7 @@ footer{
     display: block;
 }
 .social_media ul li a i.hover_effect{
-    background-color: #b4191d;
+    background-color: #0f3482;
 }
 .social_media ul li:hover i{
     transform: translateY(-40px);
@@ -1698,13 +1698,13 @@ footer{
     color: #cfcfcf;
 }
 .links a:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .links i{
     margin-right: 8px;
 }
 .links a:hover .links a{
-    color: #b4191d;
+    color: #0f3482;
 }
 .subscribe_info p{
     color: #eee;
@@ -1723,7 +1723,7 @@ footer{
   font-size: 14px;
 }
 .btn_subscribe{
-    color: #b4191d;
+    color: #0f3482;
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
@@ -1735,7 +1735,7 @@ footer{
     margin-top: 20px;    
 }
 .btn_subscribe.btn3::after{   
-    background: #b4191d;    
+    background: #0f3482;    
 }
 .btn_subscribe:hover{
     color: #fff;
@@ -1783,7 +1783,7 @@ footer{
     font-size: 14px;
 }
 .copyright p::after{
-    color: #b4191d;
+    color: #0f3482;
     content: attr(data-hover);
     position: absolute;
     top: 0;
@@ -1836,7 +1836,7 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    background: #b4191d;
+    background: #0f3482;
     color: black;
     width: 100%;
     height: 100%;
@@ -1847,14 +1847,14 @@ footer{
     border-radius: 50%;
 }
 .btn2:hover{
-    background: #b4191d;
+    background: #0f3482;
 }
 .btn2:hover::after{
     opacity: 1;
     transform: scaleX(0);
 }
 .owl-prev:hover,.owl-next:hover{
-    background: #b4191d;
+    background: #0f3482;
 }
 
 /*===================================================
@@ -1902,7 +1902,7 @@ footer{
     width:0;
     transition: .7s;
     height: 100%;
-    background: #b4191d;
+    background: #0f3482;
     opacity: 0;     
 }
 .about_list li a:hover::after{
@@ -1931,18 +1931,18 @@ footer{
     display: none;
 }
 .about_us.do .title_style h1{
-    color: #b82529;
+    color: #37afdc;
 }
 .about_us.do .title_style h1::after{
     background: #111;
 }
 .about_us .service_area1::after{
-    border-top: 2px dashed #b4191d;
-    border-right: 2px dashed #b4191d;
+    border-top: 2px dashed #0f3482;
+    border-right: 2px dashed #0f3482;
 }
 .about_us .service_area2::after{
-    border-top: 2px dashed #b4191d;
-    border-left: 2px dashed #b4191d;
+    border-top: 2px dashed #0f3482;
+    border-left: 2px dashed #0f3482;
 }
 .about_us .service_image{
     background: #111;
@@ -1964,7 +1964,7 @@ footer{
     display: none;
 }
 .about_us.feedback .title_style h1{
-    color: #b4191d;
+    color: #0f3482;
 }
 .about_us.feedback .title_style h1::after{
     background: #111;
@@ -2002,7 +2002,7 @@ footer{
 }
 .export_item h2{
     font-weight: 700;
-    color: #b4191d;
+    color: #0f3482;
     font-size: 20px;
 }
 .export_desc p{
@@ -2028,7 +2028,7 @@ footer{
     font-size: 18px;
     line-height: 40px;
     padding: 0 15px;
-    background: #b4191d;
+    background: #0f3482;
 }
 .pagination_list ul li a:hover{
     background: #ddd;
@@ -2090,7 +2090,7 @@ footer{
     text-transform: capitalize;
 }
 .country ul li:last-child a{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 18px;    
 }
 .country ul li i{
@@ -2185,7 +2185,7 @@ footer{
 }
 .house_desc h1{
     font-weight: 700;
-    color: #b4191d;
+    color: #0f3482;
     font-size: 30px;   
     margin: 0;
 }
@@ -2207,7 +2207,7 @@ footer{
     display: inline-block;
 }
 .rating li{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 18px;
     margin: 0;
 }
@@ -2217,7 +2217,7 @@ footer{
     padding-top: 9px;
 }
 .service_list i{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 16px;
     margin-right: 10px;
 }
@@ -2279,7 +2279,7 @@ footer{
     line-height: 40px;
     padding: 0 30px;
     border: 0;
-    background: #b4191d;
+    background: #0f3482;
     border-radius: 20px;
     font-size: 16px;
     font-weight: 700;
@@ -2308,7 +2308,7 @@ footer{
     left: -17px;
     width: 0;
     height: 0;
-    border-right: 70px solid #b4191d;
+    border-right: 70px solid #0f3482;
     border-top: 71px solid transparent;
     border-bottom: 70px solid transparent;
     transform: rotate(45deg);
@@ -2316,7 +2316,7 @@ footer{
     z-index: 6;
 }
 .add_cart:hover{
-    color: #b4191d;
+    color: #0f3482;
 }  
 .news_letter .btn3::after,.work .btn3::after{
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(63deg);
@@ -2355,7 +2355,7 @@ footer{
     color: #fff;   
     height: 60px;
     line-height: 60px;
-    background: #b4191d;
+    background: #0f3482;
     width: 17%;
     border-right: 1px solid #fff;
     text-align: center;
@@ -2392,7 +2392,7 @@ footer{
     color: #545252;
 }
 .shopping_cart td:last-child{
-    color: #b4191d;
+    color: #0f3482;
     font-weight: 700;
 }
 .cart_img{
@@ -2425,7 +2425,7 @@ footer{
     color: #fff;
 }
 .update_cart .btn3::after{
-    background: #b4191d;
+    background: #0f3482;
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     -moz-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(60deg);
@@ -2439,14 +2439,14 @@ footer{
     border: 1px solid #ddd;
 }
 .input_coupon:hover{
-    border: 1px solid #b4191d;
+    border: 1px solid #0f3482;
 }
 .input_coupon::placeholder{
     font-size: 14px;
     color: #777;
 }
 .btn_coupon{
-    background: #b4191d;
+    background: #0f3482;
     color: #fff;
     border: 0;
     text-transform: uppercase;
@@ -2457,7 +2457,7 @@ footer{
     padding: 0 30px;    
 }
 .btn_coupon:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .cart_details{
     padding-top: 69px;
@@ -2495,7 +2495,7 @@ footer{
     margin-top: 26px;
 }
 .cart_details button:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .cart_details .btn3::after{
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(40deg);
@@ -2520,7 +2520,7 @@ footer{
 .load_more a{
     text-transform: uppercase;
     color: #fff;
-    background: #b4191d;
+    background: #0f3482;
     font-size: 18px;
     border: 0;
     padding: 0 44px;
@@ -2533,7 +2533,7 @@ footer{
     margin-left: 6px;
 }
 .load_more a:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .load_more .btn3::after{
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(49deg);
@@ -2655,7 +2655,7 @@ footer{
 }
 .comment_title.title_style h1::after{
     left: 0;
-    background: #b4191d;
+    background: #0f3482;
 }
 .media-body{
      padding-left: 10px;
@@ -2667,7 +2667,7 @@ li.comment:hover{
     background: #f6f6f6;
 }
 li.comment:hover .comment-reply-link{
-   color: #b4191d;    
+   color: #0f3482;    
 }
 .pull-left img{ 
     border-radius: 50%;    
@@ -2727,7 +2727,7 @@ li.comment:hover .comment-reply-link{
 }
 .btn_style{
     border: none;
-    background: #b4191d;
+    background: #0f3482;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -2737,7 +2737,7 @@ li.comment:hover .comment-reply-link{
     padding: 0 35px;
 }
 .blog_form .btn_style:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .blog_search form{
     position: relative;
@@ -2752,7 +2752,7 @@ li.comment:hover .comment-reply-link{
 }
 .blog .widget_title h1,.blog2 .widget_title h1{
     font-size: 24px;
-    color: #b4191d;
+    color: #0f3482;
     text-transform: capitalize;
     margin-top: 30px;
 }
@@ -2766,7 +2766,7 @@ li.comment:hover .comment-reply-link{
 }
 .tweet i{
     font-size: 18px;
-    color: #b4191d;
+    color: #0f3482;
     margin-right: 10px;
 }
 .tweet a,.tweet_info p{
@@ -2775,7 +2775,7 @@ li.comment:hover .comment-reply-link{
     line-height: 28px;
 }
 .tweet a span{
-    color: #b4191d;
+    color: #0f3482;
     text-transform: uppercase;
     margin-right: 5px;
 }
@@ -2792,14 +2792,14 @@ li.comment:hover .comment-reply-link{
 .register_title h1{
     font-weight: 700;
     font-size: 30px;
-    color: #b4191d;
+    color: #0f3482;
 }
 .register_title p{
     font-size: 18px;
     color: #777;
 }
 .reg_form_title h1,.bsn_title h1{
-    color: #b4191d;
+    color: #0f3482;
     font-size: 22px;
     font-weight: bold;
     padding:10px 0;
@@ -2828,10 +2828,10 @@ li.comment:hover .comment-reply-link{
     margin-bottom: 25px;
 }
 .register input[type="text"]:hover,.register input[type="email"]:hover,.register input[type="password"]:hover{
-    border: 1px solid #b4191d;
+    border: 1px solid #0f3482;
 }
 .btn_check .btn3::after{
-    background: #b4191d;
+    background: #0f3482;
 }
 .btn_check button:hover{
     color: #fff;
@@ -2871,7 +2871,7 @@ li.comment:hover .comment-reply-link{
     margin-bottom: 20px;
 }
 .agree_check a{
-    color: #b4191d;
+    color: #0f3482;
     padding-left: 16px;
 }
 .notification_check input,.agree_check input{
@@ -2908,7 +2908,7 @@ li.comment:hover .comment-reply-link{
 .login_form h1{
     font-weight: bold;
     font-size: 24px;
-    color: #b4191d;
+    color: #0f3482;
     margin: 0;
 }
 .login_form form{
@@ -2950,10 +2950,10 @@ li.comment:hover .comment-reply-link{
     color: #fff;
 }
 .login_form .btn3::after{
-    background: #b4191d;
+    background: #0f3482;
 }
 .login_form input:hover{
-    border: 1px solid #b4191d;
+    border: 1px solid #0f3482;
 }
 label[for="login_check"]{
     display: inline-block;
@@ -2970,7 +2970,7 @@ label[for="login_check"]{
     font-weight: 700;   
 }
 .click_list a span{
-    color: #b4191d;
+    color: #0f3482;
     padding-left: 3px;
 }
 
@@ -3018,14 +3018,14 @@ label[for="login_check"]{
     width: 0;
 }
 .single_contact:hover::before{
-    border-color: #b4191d;  
+    border-color: #0f3482;  
     height: 100%;
     -webkit-transition: width 0.2s linear 0.1s, height 0.1s ease 0s;
     transition: width 0.2s linear 0.1s, height 0.1s ease 0s;
     width: calc(100% + 2px);
     }
 .single_contact:hover::after{
-    border-color: #b4191d;  
+    border-color: #0f3482;  
     height:100%;
     -webkit-transition: height 0.1s linear 0.3s, width 0.2s linear 0.4s, border-color 0s linear 0.3s;
     transition: height 0.1s linear 0.3s, width 0.2s linear 0.4s, border-color 0s linear 0.3s;
@@ -3044,7 +3044,7 @@ label[for="login_check"]{
     content: "";
     top: 100%;
     left: calc(50% - 15px);
-    background: #b4191d;
+    background: #0f3482;
     height: 1px;
     width: 31px;
 }
@@ -3092,7 +3092,7 @@ label[for="login_check"]{
     border: 1px solid #ddd;
 }
 .msg_area input:hover,.msg_area textarea:hover,.blog_form input:hover,.blog_form textarea:hover{
-    border: 1px solid #b4191d;
+    border: 1px solid #0f3482;
 }
 .msg_area button{
     width: 150px;
@@ -3107,7 +3107,7 @@ label[for="login_check"]{
     text-transform: uppercase;   
 }
 .msg_area .btn3::after{
-    background: #b4191d;
+    background: #0f3482;
 }
 .msg_area .btn3:hover::after{
     height: 200%;
@@ -3141,7 +3141,7 @@ label[for="login_check"]{
     padding: 0 20px;
 }
 .news_letter input:hover{
-    border: 1px solid #b4191d;
+    border: 1px solid #0f3482;
 }
 .news_letter input::placeholder,.register input::placeholder{
     font-size: 16px;
@@ -3151,7 +3151,7 @@ label[for="login_check"]{
     width: 170px;
     height: 48px;
     border: 0;
-    background: #b4191d;
+    background: #0f3482;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
@@ -3160,7 +3160,7 @@ label[for="login_check"]{
     display: block;
 }
 .news_letter .btn3:hover,.work_desc .btn3:hover{
-    color: #b4191d;
+    color: #0f3482;
 }
 .news_letter .btn3:hover::after{
     height: 200%;
@@ -3225,7 +3225,7 @@ label[for="login_check"]{
     color: #fff;
 }
 .error_links .btn3::after{
-    background: #b4191d;
+    background: #0f3482;
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(65deg);
     -moz-transform: translateX(-50%) translateY(-50%) rotate(65deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(65deg);
@@ -3252,7 +3252,7 @@ label[for="login_check"]{
     width: 100%;
 }
 .mean-container .mean-nav ul li a:hover{
-   background:#b4191d;
+   background:#0f3482;
 }
 .mean-container .mean-bar{
     position: absolute;
@@ -4035,7 +4035,7 @@ label[for="login_check"]{
         left: 7px;
     }
     .new::after{
-        border-right: 60px solid #b4191d;
+        border-right: 60px solid #0f3482;
         border-top: 61px solid transparent;
         border-bottom: 60px solid transparent;
     }
@@ -4234,7 +4234,7 @@ label[for="login_check"]{
     }   
     /*home2 html*/ 
     .home2.service_image {
-        border: 1px solid #b4191d;
+        border: 1px solid #0f3482;
         position: absolute;
         top: calc(50% - 40px);
         left: -23px;
