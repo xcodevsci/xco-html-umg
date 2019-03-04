@@ -536,9 +536,11 @@
 						<div class="news_letter">
 							<h2>Restez connecté</h2>
 							<p>Laisser-nous votre email pour être averti des dernières actualités de nos activités.</p>
-							<form action="#" method="post" id="souscribeForm">
-								<input type="text" placeholder="Votre Nom:" name="name">
-								<input type="email" placeholder="Votre Adresse email:" name="email">
+							<form action="#" method="post" class="souscribeForm">
+								<input type="text"  placeholder="Nom :" pattern="[a-zA-Z\s]+" title="Entrer seulement que des lettres" name="name" required>
+								<input type="email"  placeholder="Adresse Email :" required name="email">
+								<div id="success"></div>
+								
 								<button class="btn3">Souscrire</button>
 							</form>
 						</div>
@@ -719,14 +721,16 @@
 								<p>Laisser-nous votre email pour être averti des dernières actualités de nos activités.</p>
 							</div>
 							<div class="subscribe_form">
-								<form action="#" method="post">
-									<input type="email" class="subscribe" placeholder="Enter your email address">
-									<button class="btn_subscribe btn3">Souscrire</button>
-								</form>
+								<form action="#" method="post" class="souscribeForm">
+								<input type="text"  class="subscribe" placeholder="Nom :" pattern="[a-zA-Z\s]+" title="Entrer seulement que des lettres" name="name" id ="name"required>
+								<input type="email"  class="subscribe" placeholder="Adresse Email :" required name="email" id ="email">
+								<div id="success"></div>
+								<button class="btn_subscribe btn3">Souscrire</button>
+							</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-4">
+					<!-- <div class="col-md-3 col-sm-4">
 						<div class="footer_insta wow slideInRight">
 							<div class="widget_title">
 								<h1>instagram</h1>
@@ -772,7 +776,7 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

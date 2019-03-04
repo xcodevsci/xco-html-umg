@@ -66,5 +66,64 @@ $(function() {
     });
 
    
+
+
+   // souscribe form 
+
+
+   $(".souscribeForm").submit(function(event){
+        
+        event.preventDefault(); // prevent default submit behaviour
+            // get values from FORM
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var origin = "SOUSCRIPTION NEWSLETTER" ;
+            console.log(name+email);
+        
+            var datas = {
+                        service_id: 'default_service',
+                        template_id: 'template_YzTDaVGl',
+                        user_id: 'user_3YgMBvF2Oth6uB0fDXFwO',
+                        template_params: {
+                                           "email": email,
+                                           "name": name,
+                                           "origin" : origin
+                                         }
+                      };
+           event.preventDefault();
+         
+            $.ajax({
+                url: "https://api.emailjs.com/api/v1.0/email/send",
+                type: "POST",
+                data: JSON.stringify(datas),
+                cache: false,
+                contentType: 'application/json', 
+                success: function() {
+                    // Success message
+                    $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success > .alert-success')
+                        .append("<strong>" + name + ", Vous êtes bien inscrit à notre lettre d'information! </strong>");
+                    $('#success > .alert-success')
+                        .append('</div>');
+
+                    //clear all fields
+                    $('.souscribeForm').trigger("reset");
+                },
+                error: function() {
+                    // Fail message
+                    $('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à <a href='mailto:inbox@xcodevs.com?Subject=Message_Me from xcodevs.com;>inbox@xcodevs.com</a> ? Désolé pour ce problème!");
+                    $('#success > .alert-danger').append('</div>');
+                    //clear all fields
+                  //  $('#contactForm').trigger("reset");
+                },
+            });
+        
+        
+    });
 });
 
