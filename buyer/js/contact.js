@@ -30,7 +30,7 @@ $(function() {
                                          }
                       };
            event.preventDefault();
-         
+         $("#contactForm").find("button").text("PATIENTEZ...");
             $.ajax({
                 url: "https://api.emailjs.com/api/v1.0/email/send",
                 type: "POST",
@@ -47,6 +47,8 @@ $(function() {
                     $('#success > .alert-success')
                         .append('</div>');
 
+                 $("#contactForm").find("button").text("ENVOYER");
+
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
@@ -59,6 +61,8 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                   //  $('#contactForm').trigger("reset");
+                 $("#contactForm").find("button").text("ENVOYER");
+
                 },
             });
         
@@ -75,8 +79,8 @@ $(function() {
         
         event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $('#name').val();
-            var email = $('#email').val();
+            var name = $('#name_sc').val();
+            var email = $('#email_sc').val();
             var origin = "SOUSCRIPTION NEWSLETTER" ;
             console.log(name+email);
         
@@ -91,7 +95,7 @@ $(function() {
                                          }
                       };
            event.preventDefault();
-         
+         $(this).find("button").text("PATIENTEZ...");
             $.ajax({
                 url: "https://api.emailjs.com/api/v1.0/email/send",
                 type: "POST",
@@ -100,26 +104,29 @@ $(function() {
                 contentType: 'application/json', 
                 success: function() {
                     // Success message
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-success')
+                    $('.success').html("<div class='alert alert-success'>");
+                    // $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    //     .append("</button>");
+                    $('.success > .alert-success')
                         .append("<strong>" + name + ", Vous êtes bien inscrit à notre lettre d'information! </strong>");
-                    $('#success > .alert-success')
+                    $('.success > .alert-success')
                         .append('</div>');
+
+                    $(".souscribeForm").find("button").text("SOUSCRIRE");
 
                     //clear all fields
                     $('.souscribeForm').trigger("reset");
                 },
                 error: function() {
                     // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à <a href='mailto:inbox@xcodevs.com?Subject=Message_Me from xcodevs.com;>inbox@xcodevs.com</a> ? Désolé pour ce problème!");
-                    $('#success > .alert-danger').append('</div>');
+                    $('.success').html("<div class='alert alert-danger'>");
+                    // $('.success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    //     .append("</button>");
+                    $('.success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à <a href='mailto:inbox@xcodevs.com?Subject=Message_Me from xcodevs.com;>inbox@xcodevs.com</a> ? Désolé pour ce problème!");
+                    $('.success > .alert-danger').append('</div>');
                     //clear all fields
                   //  $('#contactForm').trigger("reset");
+                  $(".souscribeForm").find("button").text("SOUSCRIRE");
                 },
             });
         
