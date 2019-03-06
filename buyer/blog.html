@@ -737,6 +737,7 @@
 	<!-- ======================================
 	        == End Blog area  ==
 	====================================== -->
+	
 	<!-- ======================================
 	        == Start Footer area  ==
 	====================================== -->
@@ -868,60 +869,16 @@
 								<p>Laisser-nous votre email pour être averti des dernières actualités de nos activités.</p>
 							</div>
 							<div class="subscribe_form">
-								<form action="#" method="post">
-									<input type="email" class="subscribe" placeholder="Enter your email address">
-									<button class="btn_subscribe btn3">Souscrire</button>
-								</form>
+								<form action="#" method="post" class="souscribeForm">
+								<input type="text"  class="subscribe" placeholder="Nom :" pattern="[a-zA-Z\s]+" title="Entrer seulement que des lettres" name="name" id ="name"required>
+								<input type="email"  class="subscribe" placeholder="Adresse Email :" required name="email" id ="email">
+								<div id="success"></div>
+								<button class="btn_subscribe btn3">Souscrire</button>
+							</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-4">
-						<div class="footer_insta wow slideInRight">
-							<div class="widget_title">
-								<h1>instagram</h1>
-							</div>
-							<div class="insta_pictures">
-								<ul>
-									<li>
-										<img src="images/insta1.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta2.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta3.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta4.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta5.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta6.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -929,7 +886,7 @@
 		<div class="footer_bottom">		
 			<div class="container">
 				<div class="copyright">
-				<p data-hover="Designed  by XcoDevs Corporation">Copyright © 2019 Universal Maritime Group, Designed  by XcoDevs Corporation</p>
+				<p >Copyright © 2019 Universal Maritime Group, Designed  by <a href="www.xcodevs.com">XcoDevs Corporation</a></p>
 			</div>					
 			<div class="scroll btn2">
 				<i class="ion-arrow-up-c"></i>
