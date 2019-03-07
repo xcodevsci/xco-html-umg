@@ -251,7 +251,7 @@ input,button,select,textarea{
 }
 /* Header Bottom */ 
 .header_bottom{
-   background-color: #37afdc;
+   background-color: #0c0c0c;
    position: relative;
  } 
 .home2 .header_bottom::after{

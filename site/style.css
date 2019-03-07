@@ -167,7 +167,7 @@ input,button,select,textarea{
 ===================================================*/
 /* Header Top */
 .header_top{
-    background:#0c0c0c;
+    background:#37afdc;
 }
 .toolbar .header_menu> li{
     display: inline-block;
@@ -180,10 +180,10 @@ input,button,select,textarea{
     font-size: 14px;
     padding:0 30px;
     line-height: 70px;
-    border-left:1px solid #303030;
+    border-left:1px solid #37afdc;
 } 
 .toolbar .header_menu> li:last-child a{
-    border-right: 1px solid #303030;
+    border-right: 1px solid #37afdc;
 }
 .log_in a i,.toolbar a i{
     font-size: 14px;
@@ -251,7 +251,7 @@ input,button,select,textarea{
 }
 /* Header Bottom */ 
 .header_bottom{
-   background-color: #37afdc;
+   background-color: #0c0c0c;
    position: relative;
  } 
 .home2 .header_bottom::after{
