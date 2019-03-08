@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Title-->
-	<title>International Buyer HTML5 Template</title>
+	<title>UMG - Universal Maritime Group</title>
 
 	<!--Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900" rel="stylesheet">
@@ -18,7 +18,7 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="icon" href="images/favicon.png" type="image/png">
 
-	<!-- Bootstrap -->	
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 
 	<!-- Font Awesome -->
@@ -41,8 +41,9 @@
 
 	<!-- Main style sheet -->
 	<link rel="stylesheet" href="style.css">
+	<meta name="keywords" content="transit, maritime, consignation maritime abidjan, riz indien, riz 25% ">
 </head>
-<body>
+<body onload="fillProduct();">
 	<!-- ======================================
 	        ==   Start Header area  ==
 	====================================== -->
@@ -50,31 +51,32 @@
 		<div class="header_top">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8">
+					<div class="col-sm-12">
 						<div class="toolbar">
 							<ul class="header_menu">
 								<li>
-									<a href="#"><i class="ion-flash active"></i>English<i class="ion-chevron-down icon_down"></i></a>
-									<ul class=lang_menu>				
-										<li>French</li>
-										<li>German</li>
-										<li>Chinese</li>
+									<a href="#"><i class="ion-flash active"></i>Anglais<i class="ion-chevron-down icon_down"></i></a>
+									<ul class=lang_menu>
+										<li>Francais</li>
 									</ul>
 								</li>
-								<li><a href="tel:+001(1234)6457"><i class="ion-android-call active"></i>+001 (1234) 6457</a></li>
-								<li><a href="mailto:youremail@gmail.com"><i class="ion-email"></i>youremail@gmail.com</a></li>
+								<li><a href="tel:+22521284969"><i class="ion-android-call active"></i>+225 21 28 49 69</a></li>
+								<li><a href="mailto:youremail@gmail.com"><i class="ion-email"></i>universalmaritimegroupe@gmail.com</a></li>
+								<li>
+									<a href="index.html#cotation">Demander Une Cotation</a>
+								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<!-- <div class="col-sm-4">
 						<div class="log_in">
 							<div class="log_in_info">
-								<a href="login.html"><i class="ion-unlocked"></i>Log In</a>		
+								<a href="login.html"><i class="ion-unlocked"></i>Log In</a>
 								 <span>OR</span>
 								 <a href="register.html">Register</a>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -83,7 +85,7 @@
 				<div class="row">
 					<div class="col-sm-2">
 						<div class="header_logo">
-							<a href="index.html"><img src="images/header_logo.png" alt="logo"></a>
+							<a href="index.html"><img src="images/logo_umg.png" alt="logo"></a>
 						</div>
 					</div>
 					<div class="col-sm-10">
@@ -91,27 +93,12 @@
 							<nav class="header_nav">
 								<ul class="main_menu">
 									<li>
-										<a href="index.html">Home</a>
-										<ul class="homes">
-											<li>
-												<div class="style_div">
-													<div class="div1"></div>
-													<div class="div2"></div>
-												</div>
-												<a href="index.html">Home One</a>	
-											</li>
-											<li>
-												<div class="style_div">
-													<div class="div1"></div>
-													<div class="div2"></div>
-												</div>
-												<a href="home2.html">Home Two</a>	
-											</li>
-										</ul>
+										<a href="index.html">Accueil</a>
+
 									</li>
-									<li><a href="about_us.html">About</a></li>
+									<li><a href="about_us.html">Qui Sommes-Nous</a></li>
 									<li class="mega">
-										<a href="#">Import<i class="ion-chevron-down icon_down"></i></a>
+										<a href="#">Nos Services<i class="ion-chevron-down icon_down"></i></a>
 										<div class="mega_menu">
 											<div class="food catg">
 												<div class="category_title">
@@ -120,7 +107,7 @@
 														<div class="div2"></div>
 													</div>
 													<div class="category_name">
-														<h5>Food products</h5>
+														<h5>Import</h5>
 													</div>
 												</div>
 												<ul class="category_menu">
@@ -128,12 +115,7 @@
 													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Fish & Fish Products</a></li>
 													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Grains, Fruits</a></li>
 													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Animal Products</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Coconut Shell Products</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Fish & Fish Products</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Fertilizers & Pesticides</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Tea & Coffee</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Processed Food</a></li>
-													<li><a href="import01.html"><i class="ion-arrow-right-c"></i>Vegetables</a></li>
+
 												</ul>
 											</div>
 											<div class="electronics catg">
@@ -143,20 +125,14 @@
 														<div class="div2"></div>
 													</div>
 													<div class="category_name">
-														<h5>Electronics</h5>
+														<h5>Export</h5>
 													</div>
 												</div>
 												<ul class="category_menu">
 													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Notebooks & Laptops</a></li>
 													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Network Engineering</a></li>
 													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Printers & Scanners</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Amplifiers</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Software & Hardware</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Radio & Television</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Refrigerators</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Circuit Boards</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>CD , DVD Players</a></li>
-													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Insulation</a></li>
+
 												</ul>
 											</div>
 											<div class="industrial catg">
@@ -166,22 +142,16 @@
 														<div class="div2"></div>
 													</div>
 													<div class="category_name">
-														<h5>Industrial</h5>
+														<h5>Transit</h5>
 													</div>
 												</div>
 												<ul class="category_menu">
 													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Motor Parts</a></li>
 													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Brakes , Chemicals</a></li>
 													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Metal products</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Engine Parts</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Tyres</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Nuts & Bolts</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Plastic Products</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Rubber Products</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Motor Parts</a></li>
-													<li><a href="import03.html"><i class="ion-arrow-right-c"></i>Minerals & Ores</a></li>
+
 												</ul>
-											</div>										
+											</div>
 											<div class="household catg">
 												<div class="category_title">
 													<div class="style_div">
@@ -189,7 +159,7 @@
 														<div class="div2"></div>
 													</div>
 													<div class="category_name">
-														<h5>Household</h5>
+														<h5>Consignation maritime</h5>
 													</div>
 												</div>
 												<ul class="category_menu">
@@ -197,18 +167,30 @@
 													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Furniture</a></li>
 													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Glass & Ceramics</a></li>
 													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Towels & Handkerchiefs</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Household Utensils</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Flooring</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Cushions & Pillows</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Kitchenware</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Mattresses</a></li>
-													<li><a href="import04.html"><i class="ion-arrow-right-c"></i>Hand Bags</a></li>
+
 												</ul>
-											</div>								
+											</div>
+											<div class="electronics catg">
+												<div class="category_title">
+													<div class="style_div">
+														<div class="div1"></div>
+														<div class="div2"></div>
+													</div>
+													<div class="category_name">
+														<h5>Representation commerciale</h5>
+													</div>
+												</div>
+												<ul class="category_menu">
+													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Notebooks & Laptops</a></li>
+													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Network Engineering</a></li>
+													<li><a href="import02.html"><i class="ion-arrow-right-c"></i>Printers & Scanners</a></li>
+
+												</ul>
+											</div>
 										</div>
 									</li>
 									<li class="mega">
-										<a href="#">Export<i class="ion-chevron-down icon_down"></i></a>
+										<a href="#">Nos Produits<i class="ion-chevron-down icon_down"></i></a>
 										<div class="mega_menu">
 											<div class="food catg">
 												<div class="category_title">
@@ -223,14 +205,7 @@
 												<ul class="category_menu">
 													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Beverages</a></li>
 													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Fish & Fish Products</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Grains, Fruits</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Animal Products</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Coconut Shell Products</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Fish & Fish Products</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Fertilizers & Pesticides</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Tea & Coffee</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Processed Food</a></li>
-													<li><a href="export01.html"><i class="ion-arrow-right-c"></i>Vegetables</a></li>
+
 												</ul>
 											</div>
 											<div class="electronics catg">
@@ -247,13 +222,7 @@
 													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Notebooks & Laptops</a></li>
 													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Network Engineering</a></li>
 													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Printers & Scanners</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Amplifiers</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Software & Hardware</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Radio & Television</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Refrigerators</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Circuit Boards</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>CD , DVD Players</a></li>
-													<li><a href="export02.html"><i class="ion-arrow-right-c"></i>Insulation</a></li>
+
 												</ul>
 											</div>
 											<div class="industrial catg">
@@ -270,15 +239,9 @@
 													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Motor Parts</a></li>
 													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Brakes , Chemicals</a></li>
 													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Metal products</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Engine Parts</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Tyres</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Nuts & Bolts</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Plastic Products</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Rubber Products</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Motor Parts</a></li>
-													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>Minerals & Ores</a></li>
+													<li><a href="export03.html"><i class="ion-arrow-right-c"></i>
 												</ul>
-											</div>										
+											</div>
 											<div class="household catg">
 												<div class="category_title">
 													<div class="style_div">
@@ -293,269 +256,24 @@
 													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Air Conditioning</a></li>
 													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Furniture</a></li>
 													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Glass & Ceramics</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Towels & Handkerchiefs</a></li>
-													<li><a href="export.html"><i class="ion-arrow-right-c"></i>Household Utensils</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Flooring</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Cushions & Pillows</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Kitchenware</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Mattresses</a></li>
-													<li><a href="export04.html"><i class="ion-arrow-right-c"></i>Hand Bags</a></li>
+
 												</ul>
-											</div>								
+											</div>
 										</div>
 									</li>
-									<li class="mega mega_menu3">
-										<a href="#">Buyer<i class="ion-chevron-down icon_down"></i></a>
-										<div class="mega_menu">
-											<div class="supplier_1 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>South America</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Argentina</a></li>
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Ecuador</a></li>
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Suriname</a></li>
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Bolivia</a></li>
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Colombia</a></li>
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>Paraguay</a></li>
-												</ul>
-											</div>
-											<div class="supplier_2 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Europe</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Armenia</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Ireland</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Romania</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Bulgaria</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Switzerland</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Montenegro</a></li>
-												</ul>
-											</div>
-											<div class="supplier_3 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Middle east</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Egypt</a></li>
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Turkey</a></li>
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Jordan</a></li>
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Lebanon</a></li>
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Oman</a></li>
-													<li><a href="egypt_buyer.html"><i class="ion-arrow-right-c"></i>Bahrain</a></li>
-												</ul>
-											</div>										
-											<div class="supplier_4 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Southeast asia</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Cambodia</a></li>
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Indonesia</a></li>
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Malaysia</a></li>
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Philippines</a></li>
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Thailand</a></li>
-													<li><a href="cambodia_buyer.html"><i class="ion-arrow-right-c"></i>Vietnam</a></li>
-												</ul>
-											</div>										
-										</div>
-									</li>
-									<li class="mega mega_menu4">
-										<a href="#">Supplier<i class="ion-chevron-down icon_down"></i></a>
-										<div class="mega_menu">
-											<div class="supplier_1 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>South America</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Argentina</a></li>
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Ecuador</a></li>
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Suriname</a></li>
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Bolivia</a></li>
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Colombia</a></li>
-													<li><a href="argentina_supplier.html"><i class="ion-arrow-right-c"></i>Paraguay</a></li>
-												</ul>
-											</div>
-											<div class="supplier_2 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Europe</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Armenia</a></li>
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Ireland</a></li>
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Romania</a></li>
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Bulgaria</a></li>
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Switzerland</a></li>
-													<li><a href="armenia_supplier.html"><i class="ion-arrow-right-c"></i>Montenegro</a></li>
-												</ul>
-											</div>
-											<div class="supplier_3 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Middle east</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Egypt</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Turkey</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Jordan</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Lebanon</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Oman</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Bahrain</a></li>
-												</ul>
-											</div>										
-											<div class="supplier_4 catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Southeast asia</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Cambodia</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Indonesia</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Malaysia</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Philippines</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Thailand</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Vietnam</a></li>
-												</ul>
-											</div>										
-										</div>
-									</li>
-									<li class="mega">
-										<a href="#">Pages<i class="ion-chevron-down icon_down"></i></a>
-										<div class="mega_menu">
-											<div class="catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Home</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="index.html"><i class="ion-arrow-right-c"></i>Home One</a></li>
-													<li><a href="home2.html"><i class="ion-arrow-right-c"></i>Home Two</a></li>
-												</ul>
-											</div>
-											<div class="catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Buyer & Supplier</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="argentina_buyer.html"><i class="ion-arrow-right-c"></i>South America</a></li>
-													<li><a href="armenia_buyer.html"><i class="ion-arrow-right-c"></i>Europe</a></li>
-													<li><a href="egypt_supplier.html"><i class="ion-arrow-right-c"></i>Middle East</a></li>
-													<li><a href="cambodia_supplier.html"><i class="ion-arrow-right-c"></i>Southeast Asia</a></li>
-												</ul>
-											</div>										
-											<div class="catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Blog</h5>
-													</div>
-												</div>
-												<ul class="category_menu">
-													<li><a href="blog.html"><i class="ion-arrow-right-c"></i>Blog One</a></li>
-													<li><a href="blog2.html"><i class="ion-arrow-right-c"></i>Blog Two</a></li>
-													<li><a href="blogDetails.html"><i class="ion-arrow-right-c"></i>Blog Details</a></li>
-												</ul>
-											</div>
-											<div class="catg">
-												<div class="category_title">
-													<div class="style_div">
-														<div class="div1"></div>
-														<div class="div2"></div>
-													</div>
-													<div class="category_name">
-														<h5>Misc</h5>
-													</div>
-												</div>
-												<ul class="category_menu">	
-													<li><a href="partner.html"><i class="ion-arrow-right-c"></i>Partners</a></li>
-													<li><a href="partnerDetails.html"><i class="ion-arrow-right-c"></i>Partner Details</a></li>
-													<li><a href="shop.html"><i class="ion-arrow-right-c"></i>Shop</a></li>
-													<li><a href="shoppingCart.html"><i class="ion-arrow-right-c"></i>Shopping Cart</a></li>
-													<li><a href="login.html"><i class="ion-arrow-right-c"></i>Login</a></li>
-													<li><a href="register.html"><i class="ion-arrow-right-c"></i>Register</a></li>
-													<li><a href="error.html"><i class="ion-arrow-right-c"></i>Error</a></li>
-												</ul>
-											</div>								
-										</div>
+
+
+									<li>
+										<a href="blog.html">Actualité</i></a>
 									</li>
 									<li><a href="contact.html">Contact</a></li>
+
 								</ul>
 							</nav>
-							
-							<div class="main_search">
-								<a href="#"><i class="ion-ios-search-strong"></i></a>
-								<div class="search_all">
-									<form action="#" method="post">
-										<input type="text" placeholder="Search here...............">
-										<button><i class="ion-ios-search-strong"></i></button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>				
-				</div>			
-			</div>		
+
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="mobile_menu">
 			<div class="container">
@@ -570,17 +288,10 @@
 							<ul>
 								<li>
 									<a href="index.html">Home</a>
-									<ul>
-										<li>
-											<a href="index.html">Home One</a>
-										</li>
-										<li>
-											<a href="home2.html">Home Two</a>
-										</li>
-									</ul>
+
 								</li>
 								<li>
-									<a href="about_us.html">About</a>
+									<a href="about_us.html">Qui Sommes-Nous</a>
 								</li>
 								<li>
 									<a href="#">Import</a>
@@ -617,7 +328,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="#">Buyer</a>
+									<a href="#">Transit</a>
 									<ul>
 										<li>
 											<a href="argentina_buyer.html">South America</a>
@@ -634,7 +345,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="#">Supplier</a>
+									<a href="#">Consignation maritime</a>
 									<ul>
 										<li>
 											<a href="argentina_supplier.html">South America</a>
@@ -649,48 +360,52 @@
 											<a href="cambodia_supplier.html">Southeast Asia</a>
 										</li>
 									</ul>
-								</li>										
-								<li>
-									<a href="contact.html">Contact</a>
 								</li>
 								<li>
-									<a href="index.html">Blog</a>
+									<a href="#">Representation commerciale</a>
 									<ul>
 										<li>
-											<a href="blog.html">Blog One</a>
+											<a href="argentina_supplier.html">South America</a>
 										</li>
 										<li>
-											<a href="blog2.html">Blog Two</a>
+											<a href="armenia_supplier.html">Europe</a>
 										</li>
 										<li>
-											<a href="blogDetails.html">Blog Details</a>
-										</li>									
+											<a href="egypt_supplier.html">Middle East</a>
+										</li>
+										<li>
+											<a href="cambodia_supplier.html">Southeast Asia</a>
+										</li>
 									</ul>
 								</li>
 								<li>
-									<a href="index.html">Pages</a>
-									<ul>									
+									<a href="#">Nos Produits</a>
+									<ul>
 										<li>
-											<a href="partner.html">Partners</a>
+											<a href="argentina_supplier.html">South America</a>
 										</li>
 										<li>
-											<a href="partnerDetails.html">Partner Details</a>
+											<a href="armenia_supplier.html">Europe</a>
 										</li>
 										<li>
-											<a href="shop.html">Shop</a>
+											<a href="egypt_supplier.html">Middle East</a>
 										</li>
 										<li>
-											<a href="shoppingCart.html">Shopping Cart</a>
+											<a href="cambodia_supplier.html">Southeast Asia</a>
 										</li>
-										<li>
-											<a href="register.html">Register</a>
-										</li>
-										<li>
-											<a href="login.html">Login</a>
-										</li>
-										<li>
-											<a href="error.html">Error</a>
-										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="blog.html">Actualité</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+
+
+								<li>
+									<a href="#cotation">Demander Une Cotation</a>
+								</li>
 									</ul>
 								</li>
 							</ul>
@@ -698,7 +413,7 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</header>
 	<!-- ======================================
 	        ==   End Header area  ==
@@ -706,7 +421,7 @@
 	<!-- preloader -->
 	<div id="preloader">
 	    <div class="preloader-content">
-	        <img src="images/preloader.gif" alt="preloader"> 
+	        <img src="images/preloader.gif" alt="preloader">
 		</div>
 	</div>
 	<!-- ======================================
@@ -714,26 +429,27 @@
 	====================================== -->
 	<section class="main_slider">
 		<div class="main_slider_area owl-carousel">
-			<div class="main_slide" style="background-image:url(images/main_slide1.jpg);">	
+			<div class="main_slide" style="background-image:url(images/sliders/1.png);">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="main_slider_table">
 								<div class="main_slider_cell">
 									<div class="main_slider_info">
-										<h5>Hi Guys  , I’m Raymond Arnold</h5>
-										<h1>An International Buyer</h1>
-										<h2>Build Your Business With Me</h2>						
-										<div class="slider_contact_me btn1">
-											<div class="btn1_main">			
-												<a href="contact.html">contact me<i class="ion-ios-arrow-right"></i></a>
+										<h5 style="color: #fff;">UMG, leader en consignation maritime de navires en Côte d’Ivoire</h5>
+										<h1 style="color: #fff">partenaire incontournable des acteurs du secteur maritime et portuaire</h1>
+										<h2 style="color: #db4433">Professionnalisme, réactivité, équité</h2>
+										<div class="slider_contact_me btn1" style="border:1px solid #db4437">
+											<div class="btn1_main" >
+												<a href="contact.html" style="color:#0f3482">contactez-nous<i class="ion-ios-arrow-right"></i></a>
 											</div>
-											<div class="btn1_hover">				
+											<div class="btn1_hover">
 												<div class="slider_contact_me btn1_info">
-													<a href="contact.html"><i class="ion-ios-arrow-right"></i>contact me</a>
-												</div>										
+													<a href="contact.html"><i class="ion-ios-arrow-right"></i>contactez-nous</a>
+												</div>
 											</div>
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -749,27 +465,28 @@
 									<li><a href="#" class="ion-social-googleplus-outline"></a></li>
 								</ul>
 							</div>
-						</div>					
+						</div>
 					</div>
-				</div>			
+				</div>
 			</div>
-			<div class="main_slide " style="background-image:url(images/main_slide2.jpg);">			
+			<div class="main_slide " style="background-image:url(images/sliders/2.png);">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="main_slider_table">
 								<div class="main_slider_cell">
 									<div class="main_slider_info">
-										<h5>Hi Guys  , I’m Raymond Arnold</h5>
-										<h1>An International Buyer</h1>
-										<h2 class="fade_effect" >Build Your Business With Me</h2>
+										<h5>Personnel hautement qualifié à votre disposition</h5>
+										<h1>services de consignation et de transit adaptés à vos besoins</h1>
+										<h2 class="fade_effect" >LA CONSULTANCE MARITIME ,
+LE SHIPPING</h2>
 										<div class="slider_contact_me btn1">
-											<div class="btn1_main">			
-												<a href="contact.html">contact me<i class="ion-ios-arrow-right"></i></a>
+											<div class="btn1_main">
+												<a href="contact.html">contactez-nous<i class="ion-ios-arrow-right"></i></a>
 											</div>
-											<div class="btn1_hover">				
+											<div class="btn1_hover">
 												<div class="slider_contact_me btn1_info">
-													<a href="contact.html"><i class="ion-ios-arrow-right"></i>contact me</a>
+													<a href="contact.html"><i class="ion-ios-arrow-right"></i>contactez-nous</a>
 												</div>
 											</div>
 										</div>
@@ -788,11 +505,50 @@
 									<li><a href="#" class="ion-social-googleplus-outline"></a></li>
 								</ul>
 							</div>
-						</div>					
+						</div>
 					</div>
-				</div>			
+				</div>
 			</div>
-		</div>		
+			<div class="main_slide " style="background-image:url(images/sliders/3.png);">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="main_slider_table">
+								<div class="main_slider_cell">
+									<div class="main_slider_info">
+										<h5>Hi Guys  , I’m Raymond Arnold</h5>
+										<h1>An International Buyer</h1>
+										<h2 class="fade_effect" >Build Your Business With Me</h2>
+										<div class="slider_contact_me btn1">
+											<div class="btn1_main">
+												<a href="contact.html">contactez-nous<i class="ion-ios-arrow-right"></i></a>
+											</div>
+											<div class="btn1_hover">
+												<div class="slider_contact_me btn1_info">
+													<a href="contact.html"><i class="ion-ios-arrow-right"></i>contactez-nous</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="header_social_icons">
+								<ul>
+									<li><a href="#" class="ion-social-facebook active"></a></li>
+									<li><a href="#" class="ion-social-skype"></a></li>
+									<li><a href="#" class="ion-social-twitter active"></a></li>
+									<li><a href="#" class="ion-social-googleplus-outline"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- ======================================
 	        ==   End Main Slider area  ==
@@ -802,23 +558,23 @@
 	====================================== -->
 	<section class="search_area">
 		<div class="container">
-			<div class="row">			
+			<div class="row">
 				<div class="col-md-12">
 					<div class="search_info">
-						<h1 class="txt_search" data-in-effect="bounceInUp"  data-out-effect="bounceOutDown">Search for latest trade leads from buyers & importers from all over the world</h1>
+						<h1 class="txt_search" data-in-effect="bounceInUp"  data-out-effect="bounceOutDown">Vous chercher quelques chose?</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8">
-					<div class="search_form">					
+					<div class="search_form">
 						<form action="#" method="post">
 							<div class="search_bar">
-								<input type="text" placeholder="keywords">
+								<input type="text" placeholder="vos mots clés">
 								<i class="icon ion-edit"></i>
 							</div>
 							<div class="search_btn">
-								<button class="srch_btn btn3">search</button>
+								<button class="srch_btn btn3">Rechercher</button>
 							</div>
 						</form>
 					</div>
@@ -830,292 +586,74 @@
 	<!-- ======================================
 	        ==  End Search area  ==
 	====================================== -->
+
 	<!-- ======================================
-	        ==  Start About Me area  ==
-	====================================== -->
-	<section class="about_me">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="title_style">
-						<h1>About me</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-5 col-md-offset-1 col-sm-6">
-					<figure class="photo" data-wow-duration="2s">
-						<img src="images/experience1.png" alt="photo1">
-						<img src="images/experience2.png" alt="photo2">
-					</figure>
-				</div>
-				<div class="col-sm-5">
-					<div class="exp_info">
-						<article class="experience_info">
-							<h3>Hi Guys  , I’m Raymond Arnold.</h3>
-							<h2>I  Have  15 Years Experience in World Wide Business.</h2>
-							<div class="experience_desc">
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velitesse molestie consequat vel illum dolore eu feugiat nulla facilisis avero eros et accumsan et iusto odio dignissim qui blandit praesentatum zzril delenit augue duis dolore te feugait nulla facilisi. Namtempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat.</p>
-							</div>
-							<div class="read_more btn1">
-								<div class="btn1_main">						
-									<a href="#">read more<i class="ion-ios-arrow-right"></i></a>	
-								</div>
-								<div class="btn1_hover">					
-									<a href="#"><i class="ion-ios-arrow-right"></i>read more</a>	
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
-	<!-- ======================================
-	        ==  End About Me area  ==
-	====================================== -->
-	<!-- ======================================
+=======
+	
+	
 	        ==  Start What I do area  ==
 	====================================== -->
-	<section class="do">
+	<section class="home2 do">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="title_style">
-						<h1>what  i  do</h1>
+				<div class="col-sm-4">
+					<div class="home2 single_services">
+						<div class="home2 service_image">
+							<img src="images/import.svg" alt="import" class="svg">
+						</div>
+						<div class="home2 service_info">
+							<h2>Import-Export</h2>
+							<p>L’import-export consiste à effectuer la coordination et le suivi logistique qui permettent de réaliser l’opération d’achat et de vente conclues entre l’importateur ou l’exportateur et son fournisseur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="home2 single_services">
+						<div class="home2 service_image">
+							<img src="images/export.svg" alt="import" class="svg">
+						</div>
+						<div class="home2 service_info">
+							<h2>consignation maritime</h2>
+							<p>Le consignataire maritime, mandaté par l’armateur, effectue l’ensemble des opérations administratives, techniques et commerciales du navire lors de son escale au port.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="home2 single_services">
+						<div class="home2 service_image">
+							<img src="images/cart.svg" alt="import" class="svg">
+						</div>
+						<div class="home2 service_info">
+							<h2>Transit</h2>
+							<p>Le transitaire est un prestataire qui effectue un service intégral en matière de fret maritime et aérien, d’assistance à l’accomplissement des formalités douanières, de gestion de projets, d’entreposage, d’emballage...</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 ">
-					<div class="services">
-						<div class="service_area1  wow rotateInDownRight">
-							<div class="single_services">
-								<div class="service_info">
-									<h2>Import</h2>
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
-								</div>
-								<div class="service_image">
-									<img src="images/import.svg" alt="import" class="svg">
-								</div>
-							</div>
-							<div class="single_services">
-								<div class="service_info">
-									<h2>Export</h2>
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
-								</div>
-								<div class="service_image">
-									<img src="images/export.svg" alt="export" class="svg">
-								</div>
-							</div>
+				<div class="col-sm-4">
+					<div class="home2 single_services">
+						<div class="home2 service_image">
+							<img src="images/import.svg" alt="import" class="svg">
+						</div>
+						<div class="home2 service_info">
+							<h2>Représention commerciale</h2>
+							<p>Duis autem vel eum iriure doloin hendrerit in vulputatec  molestie consequat world down.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-sm-offset-4">
-					<div class="services">
-						<div class="service_area2 wow rotateInDownLeft">
-							<div class="single_services current_page_item">
-								<div class="service_image">
-										<img src="images/cart.svg" alt="cart" class="svg">
-									</div>
-								<div class="service_info">
-									<h2>buy</h2>
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
-								</div>							
-							</div>
-							<div class="single_services">
-								<div class="service_image">
-										<img src="images/sales.svg" alt="sales" class="svg">
-									</div>
-								<div class="service_info">
-									<h2>sales</h2>
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
-								</div>							
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
+		</div>
+	</section>
+
 		</div>
 	</section>
 	<!-- ======================================
 	        == End What I do area  ==
 	====================================== -->
 
-	<!-- ======================================
-	        == Start Featured Categories area  ==
-	====================================== -->
-	<section class="featured_categories">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="title_style">
-						<h1>Featured Categories</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="categories_slider owl-carousel" data-wow-duration="2s">
-						<figure class="single_category">
-							<a class="veno" href="images/hood.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/hood.png" alt="hood">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/dress.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/dress.png" alt="dress">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/shirt.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/shirt.png" alt="shirt">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/dress.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/dress.png" alt="dress">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-					</div>
-				</div>
-			</div>			
-		</div>
-	</section>
-	<!-- ======================================
-	        == End Featured Categories area  ==
-	====================================== -->
-	<!-- ======================================
-	        == Start Popular Categories area  ==
-	====================================== -->
-	<section class="popular_categories">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="title_style">
-						<h1>Popular Categories</h1>
-					</div>
-				</div>
-			</div>		
-			<div class="row">
-				<div class="col-md-12">
-					<div class="categories_slider owl-carousel" data-wow-duration="2s">
-						<figure class="single_category">
-							<a class="veno" href="images/bag.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/bag.png" alt="bag">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/shoes.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/shoes.png" alt="shoes">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/watch.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/watch.png" alt="watch">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-						<figure class="single_category">
-							<a class="veno" href="images/shoes.png" data-gall="myGallery" data-title="Featured Categories">
-								<img src="images/shoes.png" alt="shoes">
-								<div class="icon">									
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>	
-							<figcaption class="category_hover">
-								<div class="category_info">									
-									<h3>Style Women Dress</h3>
-									<div class="category_desc">
-									<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
-									</div>
-								</div>
-							</figcaption>							
-						</figure>
-					</div>
-				</div>
-			</div>			
-		</div>
-	</section>
-	<!-- ======================================
-	        == End Popular Categories area  ==
-	====================================== -->
+	
 	<!-- ======================================
 	        == Start Trusted Partners area  ==
 	====================================== -->
@@ -1124,7 +662,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="title_style">
-						<h1>trusted Partners</h1>
+						<h1>Nos Partenaires</h1>
 					</div>
 				</div>
 			</div>
@@ -1132,147 +670,79 @@
 				<div class="col-sm-3 col-xs-12">
 					<div class="single_brand">
 						<figure>
-							<a class="brand_veno" href="images/brand11.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand11.png" alt="brand1.png">
+							<a class="brand_veno" href="images/logo_partner1.png"  data-gall="myGallery" data-title="Trusted Partners">
+								<img src="images/logo_partner1.png" alt="logo_parten1.png">
 								<div class="icon1">
-									<i class="ion-android-expand"></i>	
+									<i class="ion-android-expand"></i>
 								</div>
-							</a>							
-							<div class="brand_hover">							
+							</a>
+							<div class="brand_hover">
 								<div class="icon2">
 									<a href="partnerDetails.html"><i class="ion-link"></i></a>
 								</div>
-							</div>						
+							</div>
 						</figure>
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12">
 					<div class="single_brand">
 						<figure>
-							<a class="brand_veno" href="images/brand22.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand22.png" alt="brand2.png">
+							<a class="brand_veno" href="images/logo_partner2.jpg"  data-gall="myGallery" data-title="Trusted Partners">
+								<img src="images/logo_partner2.jpg" alt="logo_partner2.png">
 								<div class="icon1">
-									<i class="ion-android-expand"></i>	
+									<i class="ion-android-expand"></i>
 								</div>
-							</a>							
-							<div class="brand_hover">							
+							</a>
+							<div class="brand_hover">
 								<div class="icon2">
 									<a href="partnerDetails.html"><i class="ion-link"></i></a>
 								</div>
-							</div>						
+							</div>
 						</figure>
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12">
 					<div class="single_brand">
 						<figure>
-							<a class="brand_veno" href="images/brand11.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand11.png" alt="brand1.png">
+							<a class="brand_veno" href="images/logo_partner3.png"  data-gall="myGallery" data-title="Trusted Partners">
+								<img src="images/logo_partner3.png" alt="logo_partner3.png">
 								<div class="icon1">
-									<i class="ion-android-expand"></i>	
+									<i class="ion-android-expand"></i>
 								</div>
-							</a>							
-							<div class="brand_hover">							
+							</a>
+							<div class="brand_hover">
 								<div class="icon2">
 									<a href="partnerDetails.html"><i class="ion-link"></i></a>
 								</div>
-							</div>						
+							</div>
 						</figure>
 					</div>
 				</div>
 				<div class="col-sm-3 col-xs-12">
 					<div class="single_brand">
 						<figure>
-							<a class="brand_veno" href="images/brand22.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand22.png" alt="brand2.png">
+							<a class="brand_veno" href="images/logo_partner4.png"  data-gall="myGallery" data-title="Trusted Partners">
+								<img src="images/logo_partner4.png" alt="logo_partner4.png">
 								<div class="icon1">
-									<i class="ion-android-expand"></i>	
+									<i class="ion-android-expand"></i>
 								</div>
-							</a>							
-							<div class="brand_hover">							
+							</a>
+							<div class="brand_hover">
 								<div class="icon2">
 									<a href="partnerDetails.html"><i class="ion-link"></i></a>
 								</div>
-							</div>						
+							</div>
 						</figure>
+
+
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3 col-xs-12">
-					<div class="single_brand">
-						<figure>
-							<a class="brand_veno" href="images/brand11.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand11.png" alt="brand1.png">
-								<div class="icon1">
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>							
-							<div class="brand_hover">							
-								<div class="icon2">
-									<a href="partnerDetails.html"><i class="ion-link"></i></a>
-								</div>
-							</div>						
-						</figure>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-12">
-					<div class="single_brand">
-						<figure>
-							<a class="brand_veno" href="images/brand22.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand22.png" alt="brand2.png">
-								<div class="icon1">
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>							
-							<div class="brand_hover">							
-								<div class="icon2">
-									<a href="partnerDetails.html"><i class="ion-link"></i></a>
-								</div>
-							</div>						
-						</figure>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-12">
-					<div class="single_brand">
-						<figure>
-							<a class="brand_veno" href="images/brand11.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand11.png" alt="brand1.png">
-								<div class="icon1">
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>							
-							<div class="brand_hover">							
-								<div class="icon2">
-									<a href="partnerDetails.html"><i class="ion-link"></i></a>
-								</div>
-							</div>						
-						</figure>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-12">
-					<div class="single_brand">
-						<figure>
-							<a class="brand_veno" href="images/brand22.png"  data-gall="myGallery" data-title="Trusted Partners">
-								<img src="images/brand22.png" alt="brand2.png">
-								<div class="icon1">
-									<i class="ion-android-expand"></i>	
-								</div>
-							</a>							
-							<div class="brand_hover">							
-								<div class="icon2">
-									<a href="partnerDetails.html"><i class="ion-link"></i></a>
-								</div>
-							</div>						
-						</figure>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ======================================
-	        == End Trusted Partners area  ==
-	====================================== -->
+	</div></div>
+</section>	
+
+	
+	
+	
 	<!-- ======================================
 	        == Start Questions area  ==
 	====================================== -->
@@ -1282,112 +752,128 @@
 				<div class="col-md-6 col-md-offset-0 col-sm-8">
 					<div class="question_accordion wow slideInLeft">
 						<div class="title_style">
-							<h1>f . a . question</h1>
+							<h1>FAQ-QUESTIONS</h1>
 						</div>
 						<div class="accordian_area">
 							<div class="panel-group" id="accordion">
 								<div class="panel panel-default">
 									<a class="active" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 										<div class="panel-title">
-											<p>01. How Do I Become a Distributor?</p>
+											<p>01. Comment devenir votre distributeur?</p>
 											<i class="ion-chevron-down open-accordion"></i>
 											<i class="ion-chevron-right close-accordion"></i>
 										</div>
-				          			</a>	    
+				          			</a>
 			      					<div id="collapseOne" class="panel-collapse collapse in">
 										<div class="panel_info">
-											<div class="panel_image">
+											<!-- <div class="panel_image">
 												<img src="images/accordion.png" alt="panel">
-											</div>
+											</div> -->
 											<div class="panel-body">
 											Mirum est notare quam littera gothica, quam nunc putamus parum ant litterarum formas humanitatis per seacula quarta decima et quinta deceo.
-										</div> 
-										</div> 
+										</div>
+										</div>
 			    					</div>
 			      				</div>
 			      				<div class="panel panel-default">
 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 										<div class="panel-title">
-											<p>02. Where Can I Buy Your Products?</p>
+											<p>02. Ou acheter vos produits?</p>
 											<i class="ion-chevron-down open-accordion"></i>
 											<i class="ion-chevron-right close-accordion"></i>
 										</div>
-				          			</a>	    
+				          			</a>
 			      					<div id="collapseTwo" class="panel-collapse collapse">
 										<div class="panel_info">
-											<div class="panel_image">
+											<!-- <div class="panel_image">
 												<img src="images/accordion.png" alt="panel">
-											</div>
+											</div> -->
 											<div class="panel-body">
 											Mirum est notare quam littera gothica, quam nunc putamus parum ant litterarum formas humanitatis per seacula quarta decima et quinta deceo.
-										</div> 
-										</div> 
+										</div>
+										</div>
 			    					</div>
 			      				</div>
 			      				<div class="panel panel-default">
 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 										<div class="panel-title">
-											<p>03. Why You Can Business With Us?</p>
+											<p>03. Vos produits, sont-ils de qualité?</p>
 											<i class="ion-chevron-down open-accordion"></i>
 											<i class="ion-chevron-right close-accordion"></i>
 										</div>
-				          			</a>	    
+				          			</a>
 			      					<div id="collapseThree" class="panel-collapse collapse ">
 										<div class="panel_info">
-											<div class="panel_image">
+											<!-- <div class="panel_image">
 												<img src="images/accordion.png" alt="panel">
-											</div>
+											</div> -->
 											<div class="panel-body">
 											Mirum est notare quam littera gothica, quam nunc putamus parum ant litterarum formas humanitatis per seacula quarta decima et quinta deceo.
-										</div> 
-										</div>  
+										</div>
+										</div>
 			    					</div>
 			      				</div>
 			      				<div class="panel panel-default">
 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
 										<div class="panel-title">
-											<p>04. Placerat Facer Possim Assum Bepn habent?</p>
+											<p>04. Quels sont vos produits actuels?</p>
 											<i class="ion-chevron-down open-accordion"></i>
 											<i class="ion-chevron-right close-accordion"></i>
 										</div>
-				          			</a>	    
+				          			</a>
 			      					<div id="collapseFour" class="panel-collapse collapse">
 										<div class="panel_info">
-											<div class="panel_image">
+											<!-- <div class="panel_image">
 												<img src="images/accordion.png" alt="panel">
-											</div>
+											</div> -->
 											<div class="panel-body">
-											Mirum est notare quam littera gothica, quam nunc putamus parum ant litterarum formas humanitatis per seacula quarta decima et quinta deceo.
-										</div> 
-										</div>   
+											Actuellement , nous avons: <br> 
+											Le riz de 50kg sous de forme de qualité quis sont le 5% parabole indien et le 25% bisure indien.<br>
+											De l'huile végétale
+											
+										</div>
+										</div>
 			    					</div>
-			      				</div>      					
+			      				</div>
 							</div>
-						</div>				
+						</div>
 					</div>
 				</div>
-				<div class="col-md-5 col-md-offset-1 col-sm-7">
-					<div class="consultation_area wow slideInRight">					
+				<div class="col-md-5 col-md-offset-1 col-sm-7" id="cotation">
+					<div class="consultation_area wow slideInRight">
 						<div class="title_style">
-							<h1>free consultation</h1>
+							<h1>Demande de cotation</h1>
 						</div>
 						<div class="consultation">
-							<form action="#" method="post">
+							<form action="" method="post" name="drop_list" id="cotationForm">
 								<div class="consultation_form">
-									<label for="services_option">I Would Like To Discuss</label><br>
+									<label for="services_option">Produit</label><br>
 									<div class="select">
-										<select name="services_option" id="services_option" class="options">	 
-										    <option value="export">Export</option>
-										    <option value="import" selected>Import</option>
-										    <option value="buy">Buy</option>
-										    <option value="sales">Sales</option>
+										<select name="produit" id="produit" onChange="SelectQuality();" class="options" required>
+										    <option value="" >Produit</option>			
 		  								</select>
 									</div>
-									<label for="name">Your Name</label><br>
-									<input type="text" placeholder="Name" id="name">
-									<label for="email">Your Email</label><br>
-									<input type="email" placeholder="Email" id="email">
-									<button type="button" class="btn_submit btn3">submit</button>
+
+									<label for="services_option">Qualité</label><br>
+									<div class="select">
+										<select name="qualite" id="qualite"  class="options" required>
+										    <option value="" >Qualité</option>									  
+		  								</select>
+									</div>
+									<label for="name">Quantité</label><br>
+									<input type="number" placeholder="Quantité" name="quantite" class="options" required>
+									<label for="name">Nom</label><br>
+									<input type="text" placeholder="Nom et prenoms" name="name" class="options" required>
+									<label for="email">Email</label><br>
+									<input type="email" placeholder="Email" name="email" class="options" required>
+									<label for="name">Entreprise</label><br>
+									<input type="text" placeholder="Nom de votre entreprise" name="entreprise" class="options" required>
+									<label for="name">Adresse géographique</label><br>
+									<input type="text" placeholder="Adresse géographique" name="adresse" class="options" required>
+									<label for="name">Téléphone</label><br>
+									<input type="phone" placeholder="Numero de téléphone" name="phone" class="options" required>
+									<div id="success"></div>
+									<button type="submit" class="btn_submit btn3">Soumettre</button>
 								</div>
 							</form>
 						</div>
@@ -1399,51 +885,8 @@
 	<!-- ======================================
 	        == End Questions area  ==
 	====================================== -->
-	<!-- ======================================
-	        == Start Feedback area  ==
-	====================================== -->
-	<section class="feedback">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="title_style">
-						<h1>our buyer/supplier feedback</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="feedback_slider owl-carousel">
-						<div class="single_feedback">
-							<div class="feedback_info">
-								<blockquote>
-									Duis autem vel eum iriure dolor in hendrerit in vultate velit esse molestie consequat vel illum dolore eu fgiat nulla facilisis at vero eros et accumsan et iusto.
-								</blockquote>
-								<p>Md. Masud , DIT  Manager</p>
-							</div>
-							<div class="feed_image">
-								<img src="images/feedback1.png" alt="feedback" class="feedback_image">
-							</div>
-						</div>
-						<div class="single_feedback">
-							<div class="feedback_info">
-								<blockquote>
-								Duis autem vel eum iriure dolor in hendrerit in vultate velit esse molestie consequat vel illum dolore eu fgiat nulla facilisis at vero eros et accumsan et iusto.
-								</blockquote>
-								<p>Keith Hawkins , DIT  Manager</p>
-							</div>
-							<div class="feed_image">
-								<img src="images/feedback2.png" alt="feedback" class="feedback_image">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-	</section>
-	<!-- ======================================
-	        == End Feedback area  ==
-	====================================== -->
+
+
 	<!-- ======================================
 	        == Start Latest News area  ==
 	====================================== -->
@@ -1452,14 +895,14 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="title_style">
-						<h1>latest news</h1>
+						<h1>Nos Dernières Actualités</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="news_slider owl-carousel">
-						<article class="single_news">					
+						<article class="single_news">
 							<figure class="news_image">
 								<a href="blogDetails.html"><img src="images/news1.png" alt="news"></a>
 							</figure>
@@ -1500,7 +943,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="single_news">					
+						<article class="single_news">
 							<figure class="news_image">
 								<a href="blogDetails.html"><img src="images/news2.png" alt="news"></a>
 							</figure>
@@ -1541,7 +984,7 @@
 								</div>
 							</div>
 						</article>
-						<article class="single_news">					
+						<article class="single_news">
 							<figure class="news_image">
 								<a href="blogDetails.html"><img src="images/news1.png" alt="news"></a>
 							</figure>
@@ -1581,15 +1024,63 @@
 									<a href="blogDetails.html">Continue Reading....</a>
 								</div>
 							</div>
-						</article>			
+						</article>
 					</div>
 				</div>
-			</div>					
+			</div>
 		</div>
 	</section>
 	<!-- ======================================
 	        == End Latest News area  ==
 	====================================== -->
+	
+	<!-- ======================================
+	        == Start Feedback area  ==
+	====================================== -->
+<!-- 	<section class="feedback">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title_style">
+						<h1>Ce que nos clients disent de nous</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="feedback_slider owl-carousel">
+						<div class="single_feedback">
+							<div class="feedback_info">
+								<blockquote>
+									Duis autem vel eum iriure dolor in hendrerit in vultate velit esse molestie consequat vel illum dolore eu fgiat nulla facilisis at vero eros et accumsan et iusto.
+								</blockquote>
+								<p>Md. Masud , DIT  Manager</p>
+							</div>
+							<div class="feed_image">
+								<img src="images/feedback1.png" alt="feedback" class="feedback_image">
+							</div>
+						</div>
+						<div class="single_feedback">
+							<div class="feedback_info">
+								<blockquote>
+								Duis autem vel eum iriure dolor in hendrerit in vultate velit esse molestie consequat vel illum dolore eu fgiat nulla facilisis at vero eros et accumsan et iusto.
+								</blockquote>
+								<p>Keith Hawkins , DIT  Manager</p>
+							</div>
+							<div class="feed_image">
+								<img src="images/feedback2.png" alt="feedback" class="feedback_image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section> -->
+	<!-- ======================================
+	        == End Feedback area  ==
+	====================================== -->
+	
+	
 	<!-- ======================================
 	        == Start Footer area  ==
 	====================================== -->
@@ -1601,15 +1092,16 @@
 						<div class="col-sm-4 col-xs-12">
 							<div class="contact">
 								<div class="contact_title">
-									<h1>Emergency Contact</h1>
+									<h1>Contactez-nous</h1>
 								</div>
 								<div class="contact_desc">
 									<div class="contact_image">
 										<i class="ion-android-call"></i>
 									</div>
 									<div class="contact_info">
-										<a href="#">+001 (1234) 5647</a>								
-										<a href="#">+001 (1234) 5647</a>
+										<a href="#">+225 21 28 49 69</a>
+										<a href="#">+225 04 20 20 73</a>								
+										
 									</div>
 								</div>
 							</div>
@@ -1617,14 +1109,14 @@
 						<div class="col-sm-4 col-xs-12">
 							<div class="contact">
 								<div class="contact_title">
-									<h1>Location</h1>
+									<h1>Notre Localisation</h1>
 								</div>
 								<div class="contact_desc">
 									<div class="contact_image">
 										<i class="ion-ios-location-outline"></i>
 									</div>
 									<div class="contact_info">
-										<p>203, Envato Labs, Behind Alis Steet,Melbourne, Australia.</p>
+										<p>Abidjan, Marcory Resudentiel rue TIAMA. Immeuble KOCHMAN, 1er Etage porte a gauche.</p>
 									</div>
 								</div>
 							</div>
@@ -1632,15 +1124,15 @@
 						<div class="col-sm-4 col-xs-12">
 							<div class="contact">
 								<div class="contact_title">
-									<h1>Emergency Contact</h1>
+									<h1>Nos adresses emails</h1>
 								</div>
 								<div class="contact_desc">
 									<div class="contact_image">
 										<i class="ion-ios-email-outline"></i>
 									</div>
 									<div class="contact_info">
-										<a href="mailto:infonews@gmail.com">infonews@gmail.com</a>
-										<a href="mailto:youremailname.net?subject=feedback">youremailname.net</a>
+										<a href="mailto:infonews@gmail.com">universalmaritimegroupe@gmail.com</a>
+										<a href="#">04 BP 3085 Abidjan 04</a>
 									</div>
 								</div>
 							</div>
@@ -1656,10 +1148,12 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer_logo wow slideInLeft" >
 							<div class="footer_logo_image">
-								<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+								<a href="index.html"><img src="images/logo_umg.png" alt="logo"></a>
 							</div>
 							<div class="footer_logo_info">
-								<p>Duis autem vel eum iriure dolor in hendr vulputatec velit esse molestie consequat vel illum dolofeu nulla facilisis at vero eros et accumsan et iusto dignissim qui blandit praesent luptatum zzril delenit .</p>
+								<p>Universal Maritime Group est une société à responsabilité limité (SARL) exerçant dans le
+									domaine de la consignation maritime, de shipping, de transit douanes, de l’import-export et de
+									la représentation commerciale.</p>
 							</div>						
 							<div class="social_media">					
 								<ul>
@@ -1694,17 +1188,17 @@
 					<div class="col-md-2 col-sm-6">
 						<div class="footer_list_link wow slideInLeft" >
 							<div class="widget_title">
-								<h1>quick link</h1>
+								<h1>Raccourcis </h1>
 							</div>
 							<div class="links">
 								<ul>
-									<li><a href="index.html"><i class="ion-arrow-right-c"></i>Home</a></li>
-									<li><a href="about_us.html"><i class="ion-arrow-right-c"></i>About Us</a></li>
+									<li><a href="index.html"><i class="ion-arrow-right-c"></i>Accueil</a></li>
+									<li><a href="about_us.html"><i class="ion-arrow-right-c"></i>Qui Sommes-nous</a></li>
 									<li><a href="#"><i class="ion-arrow-right-c"></i>Services</a></li>
 									<li><a href="#"><i class="ion-arrow-right-c"></i>Latest Work</a></li>
-									<li><a href="#"><i class="ion-arrow-right-c"></i>Our Partners</a></li>
+									<li><a href="#"><i class="ion-arrow-right-c"></i>Nos produits</a></li>
 									<li><a href="#"><i class="ion-arrow-right-c"></i>Testimonials</a></li>
-									<li><a href="#"><i class="ion-arrow-right-c"></i>Latest News</a></li>
+									<li><a href="#"><i class="ion-arrow-right-c"></i>Dernières Actualités</a></li>
 								</ul>
 							</div>
 						</div>
@@ -1712,66 +1206,22 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer_newsletter wow slideInRight">
 							<div class="widget_title">
-								<h1>News Subscription</h1>
+								<h1>Restez Connecté!</h1>
 							</div>
 							<div class="subscribe_info">
-								<p>Subscribe to our newsletter to get all our news in your inbox.</p>
+								<p>Laisser-nous votre email pour être averti des dernières actualités de nos activités.</p>
 							</div>
 							<div class="subscribe_form">
-								<form action="#" method="post">
-									<input type="email" class="subscribe" placeholder="Enter your email address">
-									<button class="btn_subscribe btn3">subscribe</button>
-								</form>
+								<form action="#" method="post" class="souscribeForm">
+								<input type="text"  class="subscribe" placeholder="Nom :" pattern="[a-zA-Z\s]+" title="Entrer seulement que des lettres" name="name" id ="name"required>
+								<input type="email"  class="subscribe" placeholder="Adresse Email :" required name="email" id ="email">
+								<div id="success"></div>
+								<button class="btn_subscribe btn3">Souscrire</button>
+							</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-4">
-						<div class="footer_insta wow slideInRight">
-							<div class="widget_title">
-								<h1>instagram</h1>
-							</div>
-							<div class="insta_pictures">
-								<ul>
-									<li>
-										<img src="images/insta1.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta2.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta3.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta4.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta5.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-									<li>
-										<img src="images/insta6.png" alt="instagram">
-										<div class="insta_hover">
-											<a class="ion-android-add" href="#"></a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -1779,7 +1229,7 @@
 		<div class="footer_bottom">		
 			<div class="container">
 				<div class="copyright">
-				<p data-hover="Copyright © 2017, Design  by ThemeeBiT">Copyright © 2017, Design  by ThemeeBiT</p>
+				<p >Copyright © 2019 Universal Maritime Group, Designed  by <a href="www.xcodevs.com">XcoDevs Corporation</a></p>
 			</div>					
 			<div class="scroll btn2">
 				<i class="ion-arrow-up-c"></i>
@@ -1821,5 +1271,6 @@
 
 	<!-- Main js -->
 	<script src="js/main.js"></script>
+	<script src="js/demande_cotation.js"></script>
 </body>
 </html>
