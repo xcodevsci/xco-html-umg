@@ -12,7 +12,7 @@ Css Table Of Content
     Header Top CSS
     Header Bottom CSS
         Main Menu
-        Dropdown 
+        Dropdown
         Mega Menu
         Mobile Menu
 3.Main Slider CSS
@@ -43,7 +43,7 @@ Css Table Of Content
 26.Login CSS
 27.Contact CSS
 28.Error CSS
-29.Responsive CSS   
+29.Responsive CSS
 */
 /*===================================================
 			       ==Base Css==
@@ -69,7 +69,7 @@ img{
 /*------Typography--------*/
 
 h1,h2,h3,h4,h5,h6,p{
-    font-family: 'Lato', sans-serif;	
+    font-family: 'Lato', sans-serif;
 }
 /*-------Transition css--------*/
 .single_category,.category_hover,.owl-prev,.owl-next,.brand_hover,.options,#services_option,#name,#email,.feedback .owl-dot.active,.contact,.social_media ul li i,.contact::after,.insta_pictures li::after,.insta_hover,.lang_menu,.mega_menu,.homes,.main_menu >li >a,.main_menu >li>a::after,.header_social_icons ul li,.links a,.single_brand .icon1,.copyright p::after,.scroll::after,.links a,.news_details,.btn3::after,.single_feedback::before,.feedback_info::before,.feedback_info::after,.feedback_image,.header_menu li,.toolbar .header_menu> li a,.log_in a,.category_menu li a,.single_services,.service_info,.service_image,.home2 .experience_desc a,.btn1_hover,.about_list li a::after,.error_links a,.pagination_list ul li a,.login_form input,li.comment,.btn_check button,.click_list a::after,.msg_area input,.msg_area textarea,.news_letter input,.load_more a,.btn_style,.news_letter .btn3,.search_all,.export_desc,.blog_form input,.blog_form textarea,.btn_coupon,.update_cart button,.cart_details button,.blog_search input,.input_coupon,.login_form button,.home2 .main_menu >li>a::after,.add_cart,.register input[type="text"],.register input[type="email"],.register input[type="password"],.work_desc .btn3,.homes li a,.homes li a i,.feedback .owl-dot ,.main_slider .owl-dot,.single_category a .icon,.blog_image img,.partner_logo img,.client_image img{
@@ -167,7 +167,7 @@ input,button,select,textarea{
 ===================================================*/
 /* Header Top */
 .header_top{
-    background:#37afdc;
+    background:#0c0c0c;
 }
 .toolbar .header_menu> li{
     display: inline-block;
@@ -180,10 +180,10 @@ input,button,select,textarea{
     font-size: 14px;
     padding:0 30px;
     line-height: 70px;
-    border-left:1px solid #37afdc;
-} 
+    border-left:1px solid #303030;
+}
 .toolbar .header_menu> li:last-child a{
-    border-right: 1px solid #37afdc;
+    border-right: 1px solid #303030;
 }
 .log_in a i,.toolbar a i{
     font-size: 14px;
@@ -194,23 +194,23 @@ input,button,select,textarea{
 .toolbar .header_menu> li:last-child a i{
     font-size: 18px;
 }
-.lang_menu{    
+.lang_menu{
     position: absolute;
     width: 138px;
     padding: 5px;
     left: 0;
     top: 200%;
-    background:#0c0c0c;    
+    background:#0c0c0c;
     opacity: 0;
     visibility:hidden;
     cursor: pointer;
     z-index: 12;
-    border: 1px solid #303030;    
+    border: 1px solid #303030;
 }
 .header_menu li:hover >.lang_menu{
     display: block;
     opacity:1;
-    visibility:visible;    
+    visibility:visible;
     top: 100%;
 }
 .lang_menu li{
@@ -229,13 +229,13 @@ input,button,select,textarea{
     margin-right: 0;
 }
 .log_in{
-    text-align: right;    
+    text-align: right;
 }
 .log_in a{
     display: inline-block;
     color: #eae5e5;
     font-size: 14px;
-    line-height: 70px;     
+    line-height: 70px;
 }
 .log_in_info{
     padding: 0 30px;
@@ -249,11 +249,11 @@ input,button,select,textarea{
 .log_in  span{
     color: #fff;
 }
-/* Header Bottom */ 
+/* Header Bottom */
 .header_bottom{
-   background-color: #0c0c0c;
+   background-color: #37afdc;
    position: relative;
- } 
+ }
 .home2 .header_bottom::after{
     content: "";
     position: absolute;
@@ -282,10 +282,10 @@ input,button,select,textarea{
 }
 .home2 .main_nav::before {
     content: "";
-    position: absolute;    
+    position: absolute;
     border-top: 94px solid transparent;
     top: 0;
-    left: 0;    
+    left: 0;
     border-left: 40px solid #37afdc;
 }
 .main_menu li{
@@ -317,7 +317,7 @@ input,button,select,textarea{
     bottom: 0;
     left: calc(50% - 10px);
     width: 0px;
-    height: 2px; 
+    height: 2px;
 }
 .home2 .main_menu >li>a::after{
     content: "\f10b";
@@ -400,7 +400,7 @@ input,button,select,textarea{
 }
 .main_search a i {
     font-size: 24px;
-    color: #fff;    
+    color: #fff;
 }
 .home2 .main_search a i{
     color: #333;
@@ -438,8 +438,8 @@ input,button,select,textarea{
     position: relative;
     vertical-align: middle;
 }
-.category_title{ 
-    padding-left: 6px;   
+.category_title{
+    padding-left: 6px;
     padding-bottom: 29px;
 }
 .category_name{
@@ -456,7 +456,7 @@ input,button,select,textarea{
 .div1,.div2{
     width: 14px;
     height: 14px;
-    border: 1px solid #0f3482;    
+    border: 1px solid #0f3482;
 }
 .div2{
     position: absolute;
@@ -465,7 +465,7 @@ input,button,select,textarea{
 }
 .category_menu li a,.category_menu li a i{
     font-size: 14px;
-    color: #464444;    
+    color: #464444;
 }
 .category_menu li a i{
     margin-right: 9px;
@@ -550,11 +550,11 @@ input,button,select,textarea{
     background: #794bc4;
 }
 .header_social_icons ul li:last-child{
-    background: #d14836;   
+    background: #d14836;
 }
 .header_social_icons li a{
     font-size: 18px;
-    color: #fff;    
+    color: #fff;
     width: 40px;
     text-align: center;
     line-height: 40px;
@@ -745,9 +745,9 @@ input,button,select,textarea{
 .btn1_hover{
     position: absolute;
     width: 100%;
-    height: 100%;    
+    height: 100%;
     top: 0;
-    left:100%;  
+    left:100%;
     opacity: 0;
  }
 .btn1_hover i{
@@ -768,7 +768,7 @@ input,button,select,textarea{
 }
 .btn1:hover .btn1_hover{
     top: 0;
-    left: 0; 
+    left: 0;
     opacity: 1;
 }
 /*===================================================
@@ -782,7 +782,7 @@ input,button,select,textarea{
     background-image: url("images/background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;    
+    width: 100%;
     position: relative;
 }
 .home2.do{
@@ -802,17 +802,17 @@ input,button,select,textarea{
     background:#111;
 }
 .do .title_style h1,.trusted_partners .title_style h1,.feedback .title_style h1 {
-    color: #fff;   
+    color: #fff;
 }
 .do .title_style h1::after,.trusted_partners .title_style h1::after{
     background: #fff;
 }
 .services {
-    padding-bottom: 56px;    
+    padding-bottom: 56px;
 }
 .single_services {
     padding: 17px 0;
-    position: relative;    
+    position: relative;
 }
 .home2.single_services{
     border:1px solid #0f3482;
@@ -836,7 +836,7 @@ input,button,select,textarea{
     content: "";
     transform: scaleX(1);
     opacity: 0;
-    transition: .7s;    
+    transition: .7s;
 }
 .single_services:first-child{
     margin-bottom: 292px;
@@ -844,15 +844,15 @@ input,button,select,textarea{
 .home2.single_services:first-child{
     margin-bottom:60px;
 }
- .service_area1 .single_services{    
+ .service_area1 .single_services{
     padding-right: 15px;
 }
-.service_area2 .single_services{   
+.service_area2 .single_services{
     padding-left: 15px;
 }
 .service_info{
-    text-align: right;    
-    display: inline-block;    
+    text-align: right;
+    display: inline-block;
     width: calc(100% - 84px);
 }
 .home2.service_info{
@@ -874,26 +874,26 @@ input,button,select,textarea{
     font-weight: 700;
     margin: 0;
     padding: 7px 0;
-    color: #fff;    
+    color: #fff;
 }
 .service_info p{
     line-height: 23px;
     font-size: 16px;
-    color: #fff;   
+    color: #fff;
 }
 .home2.single_services h2{
     color: #333;
-} 
+}
 .home2.single_services p{
     color: #888;
-} 
+}
 .service_image {
     display: inline-block;
     width: 80px;
     height: 80px;
     background: #fff;
     border-radius: 50%;
-    text-align: center;   
+    text-align: center;
     vertical-align: top;
     margin-top: 18px;
 }
@@ -904,7 +904,7 @@ input,button,select,textarea{
     left: -40px;
 }
 .service_image .svg{
-   margin-top: 20px;   
+   margin-top: 20px;
     height: 35px;
     fill: #b82429;
 }
@@ -915,22 +915,22 @@ input,button,select,textarea{
     content: "";
     width: 448px;
     height: 448px;
-    border-top: 2px dashed #fff;    
+    border-top: 2px dashed #fff;
     border-radius: 50%;
-    border-bottom: 2px dashed transparent;   
+    border-bottom: 2px dashed transparent;
     transform: rotate(45deg);
     position: absolute;
-    top: 75px;    
+    top: 75px;
 }
 .service_area1::after{
     border-left: 2px dashed transparent;
     border-right: 2px dashed #fff;
     left: 135px;
 }
-.service_area2::after {  
+.service_area2::after {
     border-left: 2px dashed #fff;
     border-right: 2px dashed transparent;
-    transform: rotate(-45deg);   
+    transform: rotate(-45deg);
     right: 134px;
 }
 .single_services:hover{
@@ -1081,7 +1081,7 @@ input,button,select,textarea{
 .single_brand{
     cursor:pointer;
     position: relative;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 .single_brand > a{
     display: block
@@ -1112,8 +1112,8 @@ input,button,select,textarea{
     position: absolute;
     width: 36px;
     height: 36px;
-    border-radius: 50%;    
-    background: #fff;    
+    border-radius: 50%;
+    background: #fff;
     text-align: center;
     line-height: 36px;
 }
@@ -1177,21 +1177,21 @@ input,button,select,textarea{
     border-top-right-radius:0;
     border-bottom-right-radius:0;
     color: #333;
-    background: #fff;    
-    padding-left:0;    
+    background: #fff;
+    padding-left:0;
 }
 .panel a.collapsed .panel-title p {
-    color: #777777;    
+    color: #777777;
     font-family: 'latomedium';
 }
-.panel_info{  
-    margin-top: 25px; 
-    margin-left: 10px;          
+.panel_info{
+    margin-top: 25px;
+    margin-left: 10px;
 }
 .panel_image{
     display: inline-block;
     vertical-align: top;
-    position: relative;           
+    position: relative;
 }
 .panel_image::after{
     content: "";
@@ -1209,11 +1209,11 @@ input,button,select,textarea{
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
-    font-family: "lato";  
+    font-family: "lato";
     width: calc(100% - 116px);
     margin-left: -4px;
     line-height: 28px;
-    padding: 0 7px 17px 21px;   
+    padding: 0 7px 17px 21px;
     vertical-align:middle;
 }
 .panel-default {
@@ -1241,10 +1241,10 @@ input,button,select,textarea{
     width: 60px;
     line-height: 60px;
     text-align: center;
-} 
+}
 .panel a.collapsed .panel-title i.open-accordion,
 .panel .panel-title i.close-accordion {
-    display: none;   
+    display: none;
 }
 .panel a.collapsed .panel-title i.close-accordion {
     display: block;
@@ -1284,11 +1284,11 @@ input,button,select,textarea{
 }
 .home2 .options,.home2 #name,.home2 #email {
     border-radius: 5px;
-} 
+}
 .options:hover,#name:hover,#email:hover,.blog_search input:hover{
     border-color:#0f3482;
 }
-.select::after { 
+.select::after {
     position: absolute;
     content: "\f123";
     font-family: "Ionicons";
@@ -1311,7 +1311,7 @@ input,button,select,textarea{
     text-transform: uppercase;
 }
 .btn_submit:hover{
-    color:#fff; 
+    color:#fff;
 }
 .btn_submit.btn3::after{
     background: #000;
@@ -1323,7 +1323,7 @@ input,button,select,textarea{
 .feedback{
     background: url("images/feedbackbg.png");
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
     position: relative;
 }
 .feedback::before{
@@ -1357,12 +1357,12 @@ input,button,select,textarea{
     color: #e1e1e1;
     border: 0;
     margin: 0;
-    padding: 0 0 20px 7px;    
+    padding: 0 0 20px 7px;
 }
 .feedback_info p{
     font-size: 18px;
     font-style: italic;
-    color: #979797;    
+    color: #979797;
 }
 .single_feedback::before {
     content: "";
@@ -1468,14 +1468,14 @@ input,button,select,textarea{
 }
 .work_desc p{
     font-size: 24px;
-    color: #ccc;   
+    color: #ccc;
 }
 .work_desc button{
     width: 162px;
     height: 46px;
-    line-height: 46px; 
+    line-height: 46px;
     margin: 0 auto;
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 /*===================================================
                    Start Latest News Area
@@ -1492,7 +1492,7 @@ input,button,select,textarea{
     margin-left: -4px;
     padding-left: 16px;
     vertical-align: top;
-    padding-top: 24px;    
+    padding-top: 24px;
     position: relative;
 }
 .news_info{
@@ -1519,10 +1519,10 @@ input,button,select,textarea{
 }
 .news_details h3,.news_details a{
     font-size: 18px;
-    font-weight: 700;    
+    font-weight: 700;
     line-height: 26px;
-    color: #444; 
-    margin-top: 0;     
+    color: #444;
+    margin-top: 0;
 }
 .news_details:hover>a h3 ,.news_details:hover>a{
     color: #0f3482;
@@ -1543,7 +1543,7 @@ input,button,select,textarea{
 }
 .info_image i{
     color: #0f3482;
-    font-size: 18px;    
+    font-size: 18px;
 }
 .info_desc p{
     font-family: 'latomedium';
@@ -1558,7 +1558,7 @@ input,button,select,textarea{
 .contact_area{
     position: absolute;
     top: -66px;
-    width: 100%;    
+    width: 100%;
 }
 .contact_box{
     overflow: hidden;
@@ -1569,7 +1569,7 @@ input,button,select,textarea{
     position: relative;
     z-index: 10;
     cursor: pointer;
-}  
+}
 .home2 .contact{
     border-radius: 10px;
 }
@@ -1592,7 +1592,7 @@ input,button,select,textarea{
 .contact:hover::after{
     opacity: 1;
     transform: scaleX(0);
-} 
+}
 .contact_title h1{
     font-family: 'latomedium';
     color: #fff;
@@ -1609,7 +1609,7 @@ input,button,select,textarea{
     width: 20px;
     display: inline-block;
 }
-.contact_info{    
+.contact_info{
     margin-left: 6px;
     display: inline-block;
     width: calc(100% - 30px);
@@ -1646,7 +1646,7 @@ footer{
     color: #eee;
     line-height: 24px;
     padding: 25px 0;
-} 
+}
 .social_media ul{
     height: 40px;
     overflow: hidden;
@@ -1709,7 +1709,7 @@ footer{
 .subscribe_info p{
     color: #eee;
     font-size: 16px;
-    line-height: 24px;   
+    line-height: 24px;
 }
 .subscribe{
     padding: 11px 0 15px 18px;
@@ -1731,11 +1731,11 @@ footer{
     line-height: 48px;
     padding: 0 40px;
     background: #fff;
-    border: 0;    
-    margin-top: 20px;    
+    border: 0;
+    margin-top: 20px;
 }
-.btn_subscribe.btn3::after{   
-    background: #0f3482;    
+.btn_subscribe.btn3::after{
+    background: #0f3482;
 }
 .btn_subscribe:hover{
     color: #fff;
@@ -1756,7 +1756,7 @@ footer{
     line-height: 65px;
     background: rgba(180, 25, 29, 0.85);
     opacity: 0;
-    transform: scale(.5);   
+    transform: scale(.5);
 }
 .insta_hover a{
      font-size: 20px;
@@ -1769,7 +1769,7 @@ footer{
 .footer_bottom{
     background: #0b0b0b;
     position: relative;
-    text-align: center;    
+    text-align: center;
 }
 .footer_bottom .container{
     position: relative;
@@ -1791,11 +1791,11 @@ footer{
     width: 0;
     height: 100%;
     overflow: hidden;
-    white-space: nowrap;   
+    white-space: nowrap;
 }
 .copyright p:hover{
-    color: transparent;    
-    transition: all .3s linear.2s;    
+    color: transparent;
+    transition: all .3s linear.2s;
 }
 .copyright p:hover::after{
     width: 100%;
@@ -1828,7 +1828,7 @@ footer{
 .scroll i{
     display: block;
     font-size: 24px;
-    color: #eee;    
+    color: #eee;
     line-height: 50px;
     animation: up-Down 1s linear infinite;
 }
@@ -1880,7 +1880,7 @@ footer{
     display: block;
     text-transform: uppercase;
     text-align: center;
-    position: relative;    
+    position: relative;
 }
 .about_list li a::before{
     position: absolute;
@@ -1903,7 +1903,7 @@ footer{
     transition: .7s;
     height: 100%;
     background: #0f3482;
-    opacity: 0;     
+    opacity: 0;
 }
 .about_list li a:hover::after{
     opacity: 1;
@@ -1922,7 +1922,7 @@ footer{
 }
 .about_list li.active a::after{
     opacity: 1;
-    width:  calc(100% - 8px);    
+    width:  calc(100% - 8px);
 }
 .about_us.do{
     background: none;
@@ -1958,7 +1958,7 @@ footer{
 }
 .about_us.feedback{
     background: none;
-    padding-bottom: 44px;   
+    padding-bottom: 44px;
 }
 .about_us.feedback::before{
     display: none;
@@ -1969,11 +1969,11 @@ footer{
 .about_us.feedback .title_style h1::after{
     background: #111;
 }
-.about_us .single_feedback::before {    
+.about_us .single_feedback::before {
     border:1px solid rgba(204, 204, 204, 0.7);
     background: none;
     border-top: none;
-} 
+}
 .about_us .feedback_info::before,.about_us .feedback_info::after{
     background: rgba(204, 204, 204, 0.7);
 }
@@ -1990,7 +1990,7 @@ footer{
 .export{
     padding: 8px 0 157px;
 }
-.export .title_style h1::after {   
+.export .title_style h1::after {
     left: calc(50% - 35px);
     width: 70px;
 }
@@ -1998,7 +1998,7 @@ footer{
     border: 1px solid #f3f3f3;
     text-align: center;
     padding: 45px 55px 40px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
 }
 .export_item h2{
     font-weight: 700;
@@ -2091,7 +2091,7 @@ footer{
 }
 .country ul li:last-child a{
     color: #0f3482;
-    font-size: 18px;    
+    font-size: 18px;
 }
 .country ul li i{
     color: #333;
@@ -2103,7 +2103,7 @@ footer{
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    margin-right: 40px;   
+    margin-right: 40px;
 }
 .search_supplier input,.main_search input{
     width: 100%;
@@ -2186,7 +2186,7 @@ footer{
 .house_desc h1{
     font-weight: 700;
     color: #0f3482;
-    font-size: 30px;   
+    font-size: 30px;
     margin: 0;
 }
 .house_list{
@@ -2317,7 +2317,7 @@ footer{
 }
 .add_cart:hover{
     color: #0f3482;
-}  
+}
 .news_letter .btn3::after,.work .btn3::after{
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(63deg);
     -moz-transform: translateX(-50%) translateY(-50%) rotate(63deg);
@@ -2352,7 +2352,7 @@ footer{
 .shopping_cart th{
     text-transform: uppercase;
     font-size: 18px;
-    color: #fff;   
+    color: #fff;
     height: 60px;
     line-height: 60px;
     background: #0f3482;
@@ -2367,7 +2367,7 @@ footer{
     width: 31.5%;
 }
 .shopping_cart td{
-    border-right: 1px solid #ddd;    
+    border-right: 1px solid #ddd;
 }
 .shopping_cart .table>thead>tr>th {
         vertical-align: middle;
@@ -2387,7 +2387,7 @@ footer{
     color: #343434;
     text-transform: uppercase;
 }
-.shopping_cart td{   
+.shopping_cart td{
     font-size: 16px;
     color: #545252;
 }
@@ -2454,7 +2454,7 @@ footer{
     font-size: 16px;
     height: 48px;
     line-height: 48px;
-    padding: 0 30px;    
+    padding: 0 30px;
 }
 .btn_coupon:hover{
     color: #0f3482;
@@ -2547,7 +2547,7 @@ footer{
 /*===================================================
                    Start Blog Two html
 ===================================================*/
-.blog2{   
+.blog2{
     padding: 90px 0 150px 0;
 }
 .blog2 .news_image{
@@ -2667,10 +2667,10 @@ li.comment:hover{
     background: #f6f6f6;
 }
 li.comment:hover .comment-reply-link{
-   color: #0f3482;    
+   color: #0f3482;
 }
-.pull-left img{ 
-    border-radius: 50%;    
+.pull-left img{
+    border-radius: 50%;
 }
 .heading_left{
     margin-bottom: 9px;
@@ -2689,7 +2689,7 @@ li.comment:hover .comment-reply-link{
 .comment-reply-link{
     font-size: 16px;
     color: #333;
-    font-weight: 700;    
+    font-weight: 700;
 }
 .comment-content p{
     color: #545252;
@@ -2812,7 +2812,7 @@ li.comment:hover .comment-reply-link{
 }
 .input_cmn{
     width: 49%;
-    display: inline-block;   
+    display: inline-block;
 }
 .input_lst_style{
      margin-left: 6px;
@@ -2919,7 +2919,7 @@ li.comment:hover .comment-reply-link{
     font-size: 16px;
     font-weight: 400;
     display: block;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 .login_check{
     display: inline-block;
@@ -2929,7 +2929,7 @@ li.comment:hover .comment-reply-link{
 }
 .login_form input[type="text"],.login_form input[type="password"]{
    line-height: 40px;
-   height: 40px; 
+   height: 40px;
    width:100%;
    padding:0 20px;
    border: 1px solid #ddd;
@@ -2944,7 +2944,7 @@ li.comment:hover .comment-reply-link{
     line-height: 40px;
     background: #fff;
     border: 1px solid  #333;
-    margin:5px 14px 25px 0;   
+    margin:5px 14px 25px 0;
 }
 .login_form button:hover{
     color: #fff;
@@ -2967,7 +2967,7 @@ label[for="login_check"]{
 .click_list a{
     font-size: 16px;
     color: #777;
-    font-weight: 700;   
+    font-weight: 700;
 }
 .click_list a span{
     color: #0f3482;
@@ -3018,14 +3018,14 @@ label[for="login_check"]{
     width: 0;
 }
 .single_contact:hover::before{
-    border-color: #0f3482;  
+    border-color: #0f3482;
     height: 100%;
     -webkit-transition: width 0.2s linear 0.1s, height 0.1s ease 0s;
     transition: width 0.2s linear 0.1s, height 0.1s ease 0s;
     width: calc(100% + 2px);
     }
 .single_contact:hover::after{
-    border-color: #0f3482;  
+    border-color: #0f3482;
     height:100%;
     -webkit-transition: height 0.1s linear 0.3s, width 0.2s linear 0.4s, border-color 0s linear 0.3s;
     transition: height 0.1s linear 0.3s, width 0.2s linear 0.4s, border-color 0s linear 0.3s;
@@ -3053,7 +3053,7 @@ label[for="login_check"]{
     font-size: 16px;
 }
 .msg_letter{
-    padding-top: 
+    padding-top:
 }
 .msg_area .title_style{
     text-align: left;
@@ -3063,11 +3063,11 @@ label[for="login_check"]{
    text-transform: capitalize;
    padding-bottom: 14px;
 }
-.msg_area .title_style h1::after{    
+.msg_area .title_style h1::after{
     left: 0;
-    width: 70px;    
+    width: 70px;
     background: #111;
-} 
+}
 .msg_area input{
     width: 48.6%;
     margin-bottom: 16px;
@@ -3103,8 +3103,8 @@ label[for="login_check"]{
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    color: #fff; 
-    text-transform: uppercase;   
+    color: #fff;
+    text-transform: uppercase;
 }
 .msg_area .btn3::after{
     background: #0f3482;
@@ -3116,7 +3116,7 @@ label[for="login_check"]{
     background: #ededed;
     margin-top: 91px;
 }
-.news_letter{   
+.news_letter{
     padding: 24px 27px 51px 40px;
 }
 .news_letter h2{
@@ -3167,7 +3167,7 @@ label[for="login_check"]{
 }
 .news_main .social_media{
     text-align: center;
-    background: #222;   
+    background: #222;
     padding: 10px 0;
 }
 #google_map{
@@ -3191,7 +3191,7 @@ label[for="login_check"]{
     background-position: center;
     font-size: 269px;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     color: transparent;
     line-height: 214px;
     -webkit-background-clip: text;
@@ -3200,11 +3200,11 @@ label[for="login_check"]{
     -webkit-text-fill-color: transparent;
     margin: 0;
     text-shadow: 10px 0px 3px rgba(17, 17, 17, 0.2);
-    position: relative;    
-}    
+    position: relative;
+}
 .error_area h2{
     font-size: 60px;
-    color: #777;    
+    color: #777;
     font-weight: 300;
     margin: 37px 0 40px;
 }
@@ -3243,7 +3243,7 @@ label[for="login_check"]{
 }
 .mean-container .mean-nav{
     background: #000;
-    margin-top: 0;    
+    margin-top: 0;
 }
 .mean-container .mean-bar, .mean-container .mean-bar *{
     box-sizing: border-box;
@@ -3257,8 +3257,8 @@ label[for="login_check"]{
 .mean-container .mean-bar{
     position: absolute;
     background: transparent;
-    padding-top: 0;    
-} 
+    padding-top: 0;
+}
 .mean-container a.meanmenu-reveal{
     padding: 0;
     top:30px;
@@ -3269,7 +3269,7 @@ label[for="login_check"]{
     height:49px;
     width: 49px;
 }
- 
+
 /*===================================================
                    Start Responsive CSS
 ===================================================*/
@@ -3279,11 +3279,11 @@ label[for="login_check"]{
     .header_nav {
       margin-right: 20px;
     }
-    .main_slider .owl-dots {    
+    .main_slider .owl-dots {
         left: calc(50% - 470px);
     }
     .main_menu >li >a {
-      padding: 0 12px;    
+      padding: 0 12px;
     }
     .mega_menu{
         width: 960px;
@@ -3293,7 +3293,7 @@ label[for="login_check"]{
         left: -155px;
     }
     .single_services {
-        padding: 0;  
+        padding: 0;
     }
     .experience_info{
         padding-top:10px;
@@ -3331,7 +3331,7 @@ label[for="login_check"]{
     .panel-body{
         line-height: 22px;
         padding: 0 0 20px 20px;
-    }    
+    }
     .about_me .photo img{
         width: 80%;
     }
@@ -3385,7 +3385,7 @@ label[for="login_check"]{
     /*blog2 html*/
     .blog2 .news_desc{
         padding:12px;
-    } 
+    }
     .blog2 .news_info li{
         padding: 0;
     }
@@ -3413,7 +3413,7 @@ label[for="login_check"]{
     .header_nav{
         margin-right: 10px;
     }
-    .main_slider .owl-dots {        
+    .main_slider .owl-dots {
         left: calc(50% - 360px);
     }
     .mega:hover .mega_menu{
@@ -3437,7 +3437,7 @@ label[for="login_check"]{
     }
     .main_search a i{
         font-size: 16px;
-    }    
+    }
     .mega_menu{
         padding: 10px;
         padding-right: 5px;
@@ -3479,7 +3479,7 @@ label[for="login_check"]{
         font-size: 20px;
         line-height: 27px;
         padding-bottom: 0;
-        margin-bottom: 5px;   
+        margin-bottom: 5px;
     }
     .experience_info p{
         font-size: 14px;
@@ -3492,7 +3492,7 @@ label[for="login_check"]{
     }
     .category_desc{
         padding: 0;
-    }   
+    }
     .single_services:first-child{
         margin-bottom: 200px;
     }
@@ -3587,10 +3587,10 @@ label[for="login_check"]{
     }
     .contact_title h1{
         font-size: 20px;
-    }    
+    }
     .contact_info a, .contact_info p{
         font-size: 12px;
-    }   
+    }
    .footer_newsletter,.footer_insta{
         padding-top: 30px;
     }
@@ -3616,7 +3616,7 @@ label[for="login_check"]{
     .house_list {
         padding: 19px 0 0 0;
     }
-    /* contact html */   
+    /* contact html */
     .single_contact_desc p{
         font-size: 14px;
     }
@@ -3627,7 +3627,7 @@ label[for="login_check"]{
     .blog_main {
         padding: 50px 0 100px 0;
     }
-    /* blog Details html */    
+    /* blog Details html */
     .blog .news_details{
         padding-top:8px;
     }
@@ -3640,8 +3640,8 @@ label[for="login_check"]{
     }
     .blog_form input{
         width: 47.2%;
-    } 
-    /*Blog2 html*/ 
+    }
+    /*Blog2 html*/
     .blog2 {
         padding: 60px 0 90px 0;
     }
@@ -3694,7 +3694,7 @@ label[for="login_check"]{
     /* log in html */
     .click_list a:first-child{
         margin-bottom: 5px;
-    }  
+    }
     /* home2 html*/
     .home2 .header_nav{
         margin-right: 10px;
@@ -3746,7 +3746,7 @@ label[for="login_check"]{
     }
     .toolbar .header_menu> li:last-child a{
         border:0;
-    }    
+    }
     .log_in{
         margin-right: 22px;
     }
@@ -3759,37 +3759,37 @@ label[for="login_check"]{
     .log_in a{
         line-height:40px;
     }
-    .supplier_country {        
-        position: static; 
+    .supplier_country {
+        position: static;
         padding-left:0;
-    }    
+    }
     .country{
         display: block;
         text-align:center;
     }
     .country ul li a{
         line-height: 37px;
-    }    
-    .main_slider_info h5 {    
+    }
+    .main_slider_info h5 {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .main_slider_info h1 {    
-        font-size: 26px;    
+    .main_slider_info h1 {
+        font-size: 26px;
         margin-bottom: 15px;
     }
     .main_slider_info h2 {
-        font-size: 26px;    
+        font-size: 26px;
         margin-bottom: 0;
     }
-    .main_slider .owl-dots{       
+    .main_slider .owl-dots{
         left: calc(50% - 130px);
     }
     .search_info h1 {
         font-size: 18px;
-        line-height: 35px;    
+        line-height: 35px;
         padding-top: 0px;
-        padding-bottom: 20px;    
+        padding-bottom: 20px;
     }
     .search_form {
         padding: 0 10px 30px;
@@ -3835,7 +3835,7 @@ label[for="login_check"]{
     }
     .single_services{
         margin-bottom: 60px;
-    }    
+    }
     .service_area1 .single_services, .service_area2 .single_services{
         padding: 10px 5px;
     }
@@ -3875,7 +3875,7 @@ label[for="login_check"]{
     .category_hover h3{
         margin: 0;
         font-size: 15px;
-    }   
+    }
     .category_desc {
         padding: 10px 2px;
     }
@@ -3892,12 +3892,12 @@ label[for="login_check"]{
     .panel_info{
         text-align: center;
     }
-    .panel-body {        
-        font-size: 14px;        
-        width: auto;       
+    .panel-body {
+        font-size: 14px;
+        width: auto;
         line-height: 25px;
         padding: 5px;
-        text-align: left;        
+        text-align: left;
     }
     .question_consultation {
         padding-bottom: 40px;
@@ -3917,7 +3917,7 @@ label[for="login_check"]{
         top: 52px;
         font-size: 23px;
     }
-    .feedback .owl-dots {    
+    .feedback .owl-dots {
         right: calc(50% - 25px);
         bottom: 66px;
         top: initial;
@@ -3934,7 +3934,7 @@ label[for="login_check"]{
     .news_info {
         padding: 20px;
     }
-    .news_slider .owl-prev,.news_slider .owl-next{       
+    .news_slider .owl-prev,.news_slider .owl-next{
         top: 18%;
     }
     .categories_slider .owl-prev, .categories_slider .owl-next, .news_slider .owl-prev, .news_slider .owl-next{
@@ -3943,10 +3943,10 @@ label[for="login_check"]{
         line-height: 30px;
     }
     .news_slider .owl-prev,.categories_slider .owl-prev{
-        left: 0;        
+        left: 0;
     }
     .categories_slider .owl-next{
-        right: 0px;        
+        right: 0px;
     }.news_slider .owl-next{
         right: 30px;
     }
@@ -4097,14 +4097,14 @@ label[for="login_check"]{
     .input_lst_style{
         margin-left: 0;
     }
-    /* Error html */  
+    /* Error html */
     .error{
         padding:0 0 158px;
-    }  
+    }
     .error_area h1 {
-        font-size: 148px;    
-        line-height: 140px;    
-        text-shadow: 5px 0px 3px rgba(17, 17, 17, 0.2);   
+        font-size: 148px;
+        line-height: 140px;
+        text-shadow: 5px 0px 3px rgba(17, 17, 17, 0.2);
     }
     .error_area h2 {
         font-size: 40px;
@@ -4125,7 +4125,7 @@ label[for="login_check"]{
     li.comment {
         padding: 10px;
     }
-    .comment-content p{    
+    .comment-content p{
         font-size: 14px;
         line-height: 22px;
     }
@@ -4141,7 +4141,7 @@ label[for="login_check"]{
     }
     .blog_aside{
         margin-top: 40px;
-    } 
+    }
     .media-body {
         padding: 10px 0 0 10px;
     }
@@ -4194,7 +4194,7 @@ label[for="login_check"]{
     }
     .cart_img{
         width: 100%;
-    }    
+    }
     .table_area .table>tbody>tr>td:first-child{
         white-space: initial;
     }
@@ -4231,8 +4231,8 @@ label[for="login_check"]{
     }
     .click_list a:first-child{
         margin-bottom: 5px;
-    }   
-    /*home2 html*/ 
+    }
+    /*home2 html*/
     .home2.service_image {
         border: 1px solid #0f3482;
         position: absolute;
@@ -4268,14 +4268,14 @@ label[for="login_check"]{
     .home2 .exp_info{
         padding: 20px;
         top: -33px;
-    }   
-} 
+    }
+}
 
 /* Wide Mobile layout */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 450px;
-    }    
+    }
     .toolbar .header_menu> li{
         display: inline-block;
     }
@@ -4292,8 +4292,8 @@ label[for="login_check"]{
     }
     .service_area1::after, .service_area2::after {
         width: 300px;
-        height: 300px;       
-    }    
+        height: 300px;
+    }
     .single_category a .icon{
         top: 20% !important;
     }
@@ -4330,7 +4330,7 @@ label[for="login_check"]{
     }
     .news_slider .owl-prev{
         left: -13px;
-    }    
+    }
     .news_details a {
         font-size: 16px;
     }
@@ -4361,7 +4361,7 @@ label[for="login_check"]{
     }
       .blog_main .single_news {
         margin-bottom: 30px;
-    }   
+    }
     .blog .news_desc{
         margin-left: 14px;
     }
