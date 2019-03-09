@@ -352,23 +352,23 @@ input,button,select,textarea{
 }
 .homes{
     position: absolute;
-    left: -100px;
+    /*left: -100px;*/
     opacity: 0;
     visibility: hidden;
     top: 100%;
     z-index: 10;
-    background: #fff;
-    width: 150px;
+    background:rgba(25,155,255,0.5);
+    width: 250px;
 }
 .main_menu li:hover .homes{
     opacity: 1;
-    left: 0;
+    /*left: 0;*/
     visibility: visible;
 }
 .homes li {
     display: block;
-    padding: 22px 10px;
-    text-align: center;
+    padding: 22px 5px;
+    text-align: left;
 }
 .homes .style_div{
     margin-right: 10px;
