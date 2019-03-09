@@ -167,7 +167,7 @@ input,button,select,textarea{
 ===================================================*/
 /* Header Top */
 .header_top{
-    background:#0c0c0c;
+    background:#0f3482;
 }
 .toolbar .header_menu> li{
     display: inline-block;
@@ -180,10 +180,10 @@ input,button,select,textarea{
     font-size: 14px;
     padding:0 30px;
     line-height: 70px;
-    border-left:1px solid #303030;
+    border-left:1px solid #37afdc;
 }
 .toolbar .header_menu> li:last-child a{
-    border-right: 1px solid #303030;
+    border-right: 1px solid #37afdc;
 }
 .log_in a i,.toolbar a i{
     font-size: 14px;
@@ -220,7 +220,7 @@ input,button,select,textarea{
     padding: 5px;
 }
 .lang_menu li:hover,.toolbar .header_menu> li:hover a{
-    color: #0f3482;
+    color: rgb(255, 200, 0); /* une couleur de texte jaune-orange */
 }
 .toolbar .icon_down{
     color: #ababab;
@@ -251,7 +251,7 @@ input,button,select,textarea{
 }
 /* Header Bottom */
 .header_bottom{
-   background-color: #37afdc;
+   background-color: #fff;
    position: relative;
  }
 .home2 .header_bottom::after{
@@ -294,14 +294,14 @@ input,button,select,textarea{
 .main_menu >li >a{
     font-size: 18px;
     font-family: 'latomedium';
-    color: #fff;
+    color: black;
     padding:0 21px;
     display: block;
     line-height: 100px;
     position: relative;
 }
 .main_menu >li >a:hover{
-    color: #fff;
+    color: #0f3482;
 }
 .home2 .main_menu >li >a{
     line-height: 94px;
@@ -406,7 +406,8 @@ input,button,select,textarea{
     color: #333;
  }
 .mega_menu{
-    background: #fff;
+    color:black;
+    background:rgba(25,155,255,0.5);
     position: absolute;
     top: 100%;
     left: -197px;
@@ -1723,22 +1724,22 @@ footer{
   font-size: 14px;
 }
 .btn_subscribe{
-    color: #0f3482;
+    color: #fff;
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     height: 48px;
     line-height: 48px;
     padding: 0 40px;
-    background: #fff;
+    background: #0f3482;
     border: 0;
     margin-top: 20px;
 }
 .btn_subscribe.btn3::after{
-    background: #0f3482;
+    background: #fff;
 }
 .btn_subscribe:hover{
-    color: #fff;
+    color: #0f3482;
 }
 .insta_pictures ul li{
     display: inline-block;
