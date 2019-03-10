@@ -38,7 +38,7 @@ $(function() {
                                          }
                       };
            event.preventDefault();
-         $(this).find("button").text("PATIENTEZ...");
+         $("#submit").text("PATIENTEZ...");
             $.ajax({
                 url: "https://api.emailjs.com/api/v1.0/email/send",
                 type: "POST",
@@ -55,7 +55,7 @@ $(function() {
                     $('#success > .alert-success')
                         .append('</div>');
 
-                    $("#cotationForm").find("button").text("SOUMETTRE");
+                    $("#submit").text("SOUMETTRE");
                     //clear all fields
                     $('#cotationForm').trigger("reset");
                 },
@@ -68,7 +68,7 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                   //  $('#contactForm').trigger("reset");
-                    $("#cotationForm").find("button").text("SOUMETTRE");
+                    $("#submit").text("SOUMETTRE");
 
                 },
             });
