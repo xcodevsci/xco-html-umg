@@ -40,8 +40,8 @@ $(function() {
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                    // $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    //     .append("</button>");
                     $('#success > .alert-success')
                         .append("<strong>" + name + ", Votre message a bien été envoyé. </strong>");
                     $('#success > .alert-success')
@@ -55,9 +55,9 @@ $(function() {
                 error: function() {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à <a href='mailto:me@example.com?Subject=Message_Me from xcodevs.com;>inbox@xcodevs.com</a> ? Désolé pour ce problème!");
+                    // $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    //     .append("</button>");
+                   $('#success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à universalmaritimegroup@gmail.com, Désolé pour ce problème!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                   //  $('#contactForm').trigger("reset");
@@ -122,7 +122,7 @@ $(function() {
                     $('.success').html("<div class='alert alert-danger'>");
                     // $('.success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                     //     .append("</button>");
-                    $('.success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à <a href='mailto:inbox@xcodevs.com?Subject=Message_Me from xcodevs.com;>inbox@xcodevs.com</a> ? Désolé pour ce problème!");
+                   $('#success > .alert-danger').append("<strong>Désolé " + name + ", notre système ne repond pas...</strong> Pouvez-vous nous écrire directment à universalmaritimegroup@gmail.com, Désolé pour ce problème!");
                     $('.success > .alert-danger').append('</div>');
                     //clear all fields
                   //  $('#contactForm').trigger("reset");
