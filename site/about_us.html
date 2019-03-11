@@ -105,28 +105,28 @@
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="about_us.html#wdo">Présentation</a>	
+												<a href="about_us.html#wdo">Présentation</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="about_us.html#mission" >Notre mission</a>	
+												<a href="about_us.html#mission" >Notre mission</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="about_us.html#vission" >Nos valeurs</a>	
+												<a href="about_us.html#vission" >Nos valeurs</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="about_us.html#goal"> EXPERTISE</a>	
+												<a href="about_us.html#goal"> EXPERTISE</a>
 											</li>
 										</ul>
 
@@ -139,32 +139,32 @@
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="import-export.html">Import-Export</a>	
+												<a href="import-export.html">Import-Export</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="transit.html" >Transit</a>	
+												<a href="transit.html" >Transit</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="consignation.html" >Consignation maritime</a>	
+												<a href="consignation.html" >Consignation maritime</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="representation.html"> Représentation commerciale</a>	
+												<a href="representation.html"> Représentation commerciale</a>
 											</li>
 										</ul>
 									</li>
-										
+
 																			<li class="mega">
 										<a href="#">Nos Produits<i class="ion-chevron-down icon_down"></i></a>
 										<ul class="homes">
@@ -173,17 +173,17 @@
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="riz.html">Riz Indien</a>	
+												<a href="riz.html">Riz Indien</a>
 											</li>
 											<li>
 												<div class="style_div">
 													<div class="div1"></div>
 													<div class="div2"></div>
 												</div>
-												<a href="huile.html" >Huile végétale</a>	
+												<a href="huile.html" >Huile végétale</a>
 											</li>
 											<li>
-											
+
 										</ul>
 									</li>
 									<li>
@@ -225,32 +225,32 @@
 										<li>
 											<a href="huile.html" >Huile végétale</a>
 										</li>
-										
+
 									</ul>
 								</li>
 								<li>
 										<a href="#">Nos Services</a>
 										<ul>
 											<li>
-								
-												<a href="import-export.html">Import-Export</a>	
+
+												<a href="import-export.html">Import-Export</a>
 											</li>
 											<li>
-										
-												<a href="transit.html" >Transit</a>	
+
+												<a href="transit.html" >Transit</a>
 											</li>
 											<li>
-												
-												<a href="consignation.html" >Consignation maritime</a>	
+
+												<a href="consignation.html" >Consignation maritime</a>
 											</li>
 											<li>
-												
-												<a href="representation.html"> Représentation commerciale</a>	
+
+												<a href="representation.html"> Représentation commerciale</a>
 											</li>
 										</ul>
 									</li>
-										
-								
+
+
 								<li>
 									<a href="blog.html">Actualité</a>
 								</li>
@@ -562,7 +562,7 @@
 				</div>
 	</div> </div>
 </section>
-<br>	
+<br>
 <br><br>
 <br><br>
 	<!-- ======================================
@@ -722,7 +722,7 @@
 		<!-- footer bootom -->
 		<div class="footer_bottom">
 				<div class="copyright">
-				<p >Copyright © 2019 Universal Maritime Group, Designed  by <a href="www.xcodevs.com" target="_blank">XcoDevs Corporation</a></p>
+				<p >Copyright © 2019 Universal Maritime Group, Designed  by <a href="http://www.xcodevs.com" target="_blank">XcoDevs Corporation</a></p>
 			</div>
 			<div class="scroll btn2">
 				<i class="ion-arrow-up-c"></i>
@@ -765,5 +765,17 @@
 	<!-- Main js -->
 	<script src="js/main.js"></script>
 	<script src="js/demande_cotation.js"></script>
+	<script >
+		(function($){
+			chemin = window.location.href.split("#")[1];
+			console.log(chemin);
+			if(chemin !== undefined){
+				$(".tab-pane").removeClass("fade-in active");
+				$(".tab-pane").addClass("fade");
+				$("#"+chemin).removeClass("fade");
+				$("#"+chemin).addClass("fade-in active");
+			}
+		})(jQuery);
+	</script>
 </body>
 </html>
