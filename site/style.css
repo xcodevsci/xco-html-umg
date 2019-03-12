@@ -552,12 +552,12 @@ input,button,select,textarea{
     background: #794bc4;
 }
 .header_social_icons ul li:last-child{
-    background: #d14836;
+    background: #37afdc;
 }
 .header_social_icons li a{
     font-size: 18px;
     color: #fff;
-    width: 40px;
+    width: 150px;
     text-align: center;
     line-height: 40px;
     display: block;
@@ -1151,8 +1151,9 @@ input,button,select,textarea{
 }
 /* ----------- faq area ------------- */
 .accordian_area{
-    margin-left: 38px;
+    /* margin-left: 38px; */
     margin-top: 10px;
+    margin-bottom: -32%;
 }
 .home2 .accordian_area{
     margin-left: 0;
@@ -1228,7 +1229,8 @@ input,button,select,textarea{
     margin-top: 20px;
 }
 .panel-group {
-    margin-bottom: 0;
+    margin-bottom: 40%;
+    margin-left: 38px;
 }
 .panel-title i {
     background: #0f3482;
@@ -1864,6 +1866,7 @@ footer{
 ===================================================*/
 .about_list{
     overflow: hidden;
+    margin-bottom: -20%;
 }
 .about_info{
     padding: 66px 0 78px;
@@ -3782,6 +3785,15 @@ label[for="login_check"]{
     .container {
         width: 300px;
     }
+    .map_area{
+      padding-bottom: 7%;
+    }
+    .mapouter{
+      margin-left: -49%;
+    }
+    .contactpage_image{
+      margin-top: 7%;
+    }
     .header_bottom,.header_top{
         display: none;
     }
@@ -3817,6 +3829,7 @@ label[for="login_check"]{
     .supplier_country {
         position: static;
         padding-left:0;
+        margin-top: 25%;
     }
     .country{
         display: block;
@@ -3954,6 +3967,8 @@ label[for="login_check"]{
         padding: 5px;
         text-align: left;
     }
+    .contact_box{
+    }
     .question_consultation {
         padding-bottom: 40px;
     }
@@ -3963,6 +3978,7 @@ label[for="login_check"]{
     .single_brand{
         margin-bottom: 15px;
         display: inline-block;
+        margin-left: 35px;
     }
     .feedback_info blockquote {
         line-height: 24px;
@@ -4080,6 +4096,7 @@ label[for="login_check"]{
         margin: 0 auto;
         padding:15px 0;
         transform: initial;
+        margin-top: 5%;
     }
     .search_supplier form{
         position: relative;
@@ -4104,6 +4121,7 @@ label[for="login_check"]{
     }
     .single_contact{
         margin-bottom: 25px;
+        margin-top: 3%;
     }
     .msg_area input{
         width: 100%;
