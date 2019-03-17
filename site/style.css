@@ -357,7 +357,7 @@ input,button,select,textarea{
     visibility: hidden;
     top: 100%;
     z-index: 10;
-    background:rgba(25,155,255,0.5);
+    background:rgba(25,155,255,1);
     width: 250px;
 }
 .main_menu li:hover .homes{
@@ -408,7 +408,7 @@ input,button,select,textarea{
 
 .mega_menu{
     color:black;
-    background:rgba(25,155,255,0.5);
+    background:rgba(25,155,255,1);
     position: absolute;
     top: 100%;
     left: -197px;
